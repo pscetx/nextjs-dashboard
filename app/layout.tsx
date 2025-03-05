@@ -19,7 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${lusitana.className} antialiased`}>
+      <body
+        className={`${lusitana.className} bg-gradient-to-br from-white to-[#f1f0ec] antialiased`}
+      >
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
           <div className="w-full flex-none md:w-64">
             <SideNav />
