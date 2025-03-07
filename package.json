@@ -13,33 +13,41 @@
     "@heroicons/react": "^2.0.18",
     "@tailwindcss/forms": "^0.5.7",
     "@types/node": "20.5.7",
-    "@vercel/postgres": "^0.5.0",
     "autoprefixer": "10.4.15",
-    "bcrypt": "^5.1.1",
     "clsx": "^2.0.0",
-    "next": "^14.0.2",
-    "next-auth": "^5.0.0-beta.15",
+    "framer-motion": "^12.4.10",
+    "next": "^15.2.1",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "styled-components": "^6.1.15",
     "tailwindcss": "3.3.3",
-    "typescript": "5.2.2",
-    "use-debounce": "^10.0.0",
-    "zod": "^3.22.2"
+    "typescript": "5.2.2"
   },
   "devDependencies": {
-    "@types/bcrypt": "^5.0.1",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
     "@vercel/style-guide": "^5.0.1",
-    "dotenv": "^16.3.1",
-    "eslint": "^8.52.0",
+    "eslint": "^9.21.0",
     "eslint-config-next": "^14.0.0",
-    "eslint-config-prettier": "9.0.0",
+    "eslint-config-prettier": "10.0.2",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "0.5.4"
   },
   "engines": {
     "node": ">=18.17.0"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "bufferutil",
+      "utf-8-validate"
+    ],
+    "onlyBuiltDependencies": [
+      "bufferutil",
+      "sharp",
+      "utf-8-validate"
+    ]
   }
 }
