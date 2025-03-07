@@ -18,13 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lusitana.className} bg-gradient-to-br from-white to-amber-50 antialiased`}
+        className={`${lusitana.className} bg-orange-50 antialiased`}
       >
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
           <div className="w-full flex-none md:w-48">
             <SideNav />
           </div>
-          <div className="flex-grow p-6 md:overflow-y-auto md:p-12">
+          <div className="flex-grow p-2 md:overflow-y-auto md:p-6">
             <PageWrapper>{children}</PageWrapper>
           </div>
         </div>

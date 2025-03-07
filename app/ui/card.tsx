@@ -1,103 +1,92 @@
 import React from 'react';
 import styled from 'styled-components';
+import Image from 'next/image';
+import { ArrowRightIcon } from '@heroicons/react/24/solid';
 
-const Card = () => {
+interface CardProps {
+  thumbnailUrl: string;
+  text: string;
+  blobColor?: string;
+}
+
+const Card: React.FC<CardProps> = ({ thumbnailUrl, text, blobColor = '#ecfcca' }) => {
   return (
-    <StyledWrapper>
-      <div className="container">
-        <div className="box text-black">
-          <span className="title">GLASS EFFECT</span>
-          <div>
-            <strong>JOE WATSON SBF</strong>
-            <p>0000 000 000 0000</p>
-            <span>VALID</span> <span>01/28</span>
-          </div>
+    <StyledWrapper $blobColor={blobColor}>
+      <div className="scale-75 md:scale-90 group flex flex-col items-center transform hover:rotate-1 transition duration-300 ease-in-out">
+        <div className="card">
+          <Image className="rounded-xl" src={thumbnailUrl} width={400} height={225} alt="Card Image" />
+          <div className="bg" />
+          <div className="blob" />
+        </div>
+        <div className="flex flex-row group relative items-center justify-center gap-2 p-3 mt-2 tracking-widest text-center text-gray-500 text-lg italic before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:rounded-full before:bg-amber-500 before:opacity-0 before:blur-md before:transition-opacity before:duration-500 group-hover:text-amber-800 group-hover:before:opacity-50">
+          <span>{text}</span>
+          <ArrowRightIcon className="w-6 h-6 transition-transform duration-300 transform -rotate-45 group-hover:rotate-0" />
         </div>
       </div>
     </StyledWrapper>
   );
 };
 
-const StyledWrapper = styled.div`
-  .container {
-    color: white;
+// Use `$blobColor` instead of `blobColor` to avoid passing it to the DOM
+const StyledWrapper = styled.div.attrs<{ $blobColor: string }>(() => ({}))`
+  .card {
     position: relative;
-    font-family: sans-serif;
-  }
-
-  .container::before,
-  .container::after {
-    content: '';
-    background-color: #fab5704c;
-    position: absolute;
-  }
-
-  .container::before {
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    top: 30%;
-    right: 7%;
-  }
-
-  .container::after {
-    content: '';
-    position: absolute;
-    height: 3rem;
-    top: 8%;
-    right: 5%;
-    border: 1px solid;
-  }
-
-  .container .box {
-    width: 11.875em;
-    height: 15.875em;
-    padding: 1rem;
-    background-color: rgba(255, 255, 255, 0.074);
-    border: 1px solid rgba(255, 255, 255, 0.222);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    border-radius: 0.7rem;
-    transition: all ease 0.3s;
-  }
-
-  .container .box {
+    width: 410px;
+    height: 235px;
+    border-radius: 14px;
+    z-index: -1;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px #f3f4f6, -2px -2px 4px #e5e7eb;
   }
 
-  .container .box .title {
-    font-size: 2rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
+  .bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 400px;
+    height: 225px;
+    z-index: -2;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(24px);
+    border-radius: 12px;
+    overflow: hidden;
+    outline: 2px solid white;
   }
 
-  .container .box div strong {
-    display: block;
-    margin-bottom: 0.5rem;
+  .blob {
+    position: absolute;
+    z-index: -3;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: ${({ $blobColor }) => $blobColor}; /* Fixed: Correct prop usage */
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
   }
 
-  .container .box div p {
-    margin: 0;
-    font-size: 0.9em;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-  }
-
-  .container .box div span {
-    font-size: 0.7rem;
-    font-weight: 300;
-  }
-
-  .container .box div span:nth-child(3) {
-    font-weight: 500;
-    margin-right: 0.2rem;
-  }
-
-  .container .box:hover {
-    box-shadow: 0px 0px 20px 1px #ffbb763f;
-    border: 1px solid rgba(255, 255, 255, 0.454);
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
   }
 `;
 
