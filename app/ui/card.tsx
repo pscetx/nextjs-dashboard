@@ -40,7 +40,7 @@ const StyledWrapper = styled.div.attrs<{ $blobColor: string }>(() => ({}))`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 2px 2px 4px #f3f4f6, -2px -2px 4px #e5e7eb;
+    box-shadow: 4px 4px 8px #f3f4f6, -1px -1px 2px #e5e7eb;
   }
 
   .bg {

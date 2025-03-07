@@ -9,7 +9,7 @@ export default function SideNav() {
         className="flex h-20 items-start justify-center"
         href="/"
       >
-        <Image src="/logo.png" width={50} height={10} alt="logo" />
+        <Image src="/logo.png" width={50} height={50} alt="logo" priority />
       </Link>
       <div className="flex flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
         <NavLinks />

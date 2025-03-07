@@ -3,6 +3,9 @@ import { lusitana } from '@/app/ui/fonts';
 import { Metadata } from 'next';
 import SideNav from '@/app/ui/side-nav';
 import PageWrapper from '@/app/ui/page-animation';
+import ElegantCursor from '@/app/ui/cursor';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: { template: '%s | Phạm Công Thành', default: 'Phạm Công Thành' },
@@ -20,12 +23,25 @@ export default function RootLayout({
       <body
         className={`${lusitana.className} bg-orange-50 antialiased`}
       >
+        <ElegantCursor />
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-          <div className="w-full flex-none md:w-48">
+          <div className="w-full flex-none md:w-52">
             <SideNav />
           </div>
-          <div className="flex-grow p-2 md:overflow-y-auto md:p-6">
+          <div className="flex-grow p-4 md:overflow-y-auto md:p-6">
             <PageWrapper>{children}</PageWrapper>
+            <div className='mt-8 flex justify-between items-center'>
+              <p className='text-xl md:text-2xl italic text-gray-800 tracking-wide'>
+                Let's chat! Find me at <strong>pscetxvn@gmail.com</strong>
+              </p>
+              <Link
+                href="https://www.behance.net/thnhphm118"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image src="/behance.png" width={60} height={60} alt="logo" priority />
+              </Link>
+            </div>
           </div>
         </div>
       </body>
