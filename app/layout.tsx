@@ -32,7 +32,7 @@ export default function RootLayout({
             <PageWrapper>{children}</PageWrapper>
             <div className='mt-8 flex justify-between items-center'>
               <p className='text-xl md:text-2xl italic text-gray-800 tracking-wide'>
-                Let's chat! Find me at <strong>pscetxvn@gmail.com</strong>
+                Let's chat! Reach me at <strong>pscetxvn@gmail.com</strong>
               </p>
               <Link
                 href="https://www.behance.net/thnhphm118"

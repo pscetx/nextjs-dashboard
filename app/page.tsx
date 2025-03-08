@@ -43,10 +43,11 @@ export default function HeroSection() {
 
         <div>
           <TextFlip />
-          <p className="text-xl text-gray-700 mt-4 max-w-3xl">
-            I'm Thành, a student passionate about <strong>UI/UX Design</strong> and crafting intuitive, visually appealing interfaces for web and mobile applications.
-          </p>
-          <p className="text-xl text-gray-700 mt-4 max-w-2xl italic">
+          <div className="text-lg text-gray-800 mt-4 max-w-3xl">
+            I'm Thành, a student passionate about
+            <span className='font-semibold'> UI/UX Design</span> and crafting intuitive, visually appealing interfaces for web and mobile applications.
+          </div>
+          <p className="text-lg text-gray-800 mt-4 max-w-2xl italic">
             Welcome to my portfolio!
           </p>
         </div>
@@ -55,11 +56,11 @@ export default function HeroSection() {
     </section>
 
 
-      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured Work</h1>
+      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured work</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/thumbnail-fit-journey.png"
+            thumbnailUrl="/fj-Thumbnail.png"
             text="Fit Journey"
             blobColor="#94dfcf"
           />
