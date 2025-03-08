@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: { template: '%s | Phạm Công Thành', default: 'Phạm Công Thành' },
-  description: 'Designer & Web Developer',
+  description: 'Designer / Web Developer',
   metadataBase: new URL('https://phamcongthanh.vercel.app'),
 };
 
@@ -25,10 +25,10 @@ export default function RootLayout({
       >
         <ElegantCursor />
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
-          <div className="w-full flex-none md:w-52">
+          <div className="w-full flex-none md:w-60">
             <SideNav />
           </div>
-          <div className="flex-grow p-4 md:overflow-y-auto md:p-6">
+          <div className="flex-grow p-6 md:overflow-y-auto md:py-6 md:pl-0">
             <PageWrapper>{children}</PageWrapper>
             <div className='mt-8 flex justify-between items-center'>
               <p className='text-xl md:text-2xl italic text-gray-800 tracking-wide'>

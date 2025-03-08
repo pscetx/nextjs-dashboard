@@ -46,6 +46,7 @@
     ],
     "onlyBuiltDependencies": [
       "bufferutil",
+      "canvas",
       "sharp",
       "utf-8-validate"
     ]
