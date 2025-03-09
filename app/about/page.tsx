@@ -25,7 +25,7 @@ export default function Page() {
         <DownloadButton />
         <iframe
           src="/PhamCongThanh_UIUXDesigner_CV.pdf"
-          className="md:w-[800px] md:h-[1172px] w-[300px] h-[435px] rounded-md"
+          className="md:w-[802px] md:h-[1173px] w-[300px] h-[435px] rounded-md"
           style={{ border: "none" }}
         ></iframe>
       </div>
