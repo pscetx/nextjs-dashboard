@@ -13,7 +13,7 @@ export default function Page() {
           Thanh is a passionate student exploring the world of design and digital experiences.
         </p>
         <p className="mt-3 text-gray-800">
-          Based in Hanoi, Vietnam, they are dedicated to learning UX/UI principles and developing creative solutions that make an impact.
+          Based in Hanoi, they are dedicated to learning UX/UI principles and developing creative solutions that make an impact.
         </p>
         <p className="mt-3 text-gray-800">
           Besides design, Thanh enjoys playing the piano, voguing, embracing outdoor activities and staying in touch with the community.
@@ -24,8 +24,8 @@ export default function Page() {
       <div className="flex flex-col items-center justify-center">
         <DownloadButton />
         <iframe
-          src="/PhamCongThanh_CV.pdf"
-          className="md:w-[800px] md:h-[1173px] w-[300px] h-[435px] rounded-md"
+          src="/PhamCongThanh_UIUXDesigner_CV.pdf"
+          className="md:w-[800px] md:h-[1172px] w-[300px] h-[435px] rounded-md"
           style={{ border: "none" }}
         ></iframe>
       </div>

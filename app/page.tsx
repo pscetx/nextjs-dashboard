@@ -36,16 +36,16 @@ export default function HeroSection() {
   return (
     <div className="w-full">
 
-      <section className="relative h-[93vh] w-full flex flex-col justify-between p-10 border border-gray-100 shadow-sm bg-gradient-to-br from-gray-50 via-orange-50 to-amber-50 rounded-xl overflow-hidden">
-      <div ref={blob1} className="absolute w-60 h-60 bg-amber-300 opacity-30 blur-3xl rounded-full transition-transform duration-300 ease-out" />
-      <div ref={blob2} className="absolute w-80 h-80 bg-orange-400 opacity-20 blur-3xl rounded-full transition-transform duration-500 ease-out" />
-      <div ref={blob3} className="absolute w-72 h-72 bg-amber-500 opacity-25 blur-3xl rounded-full transition-transform duration-700 ease-out" />
+      <section className="relative h-[93vh] w-full flex flex-col justify-between p-10 border border-gray-200 shadow-sm bg-gradient-to-br from-gray-50 via-amber-50 to-amber-100 rounded-xl overflow-hidden">
+      <div ref={blob1} className="md:block hidden absolute w-60 h-60 bg-amber-100 opacity-30 blur-3xl rounded-full transition-transform duration-300 ease-out" />
+      <div ref={blob2} className="md:block hidden absolute w-80 h-80 bg-amber-300 opacity-20 blur-3xl rounded-full transition-transform duration-500 ease-out" />
+      <div ref={blob3} className="md:block hidden absolute w-72 h-72 bg-amber-500 opacity-25 blur-3xl rounded-full transition-transform duration-700 ease-out" />
 
         <div>
           <TextFlip />
           <div className="text-lg text-gray-800 mt-4 max-w-3xl">
-            I'm Thành, a student passionate about
-            <span className='font-semibold'> UI/UX Design</span> and crafting intuitive, visually appealing interfaces for web and mobile applications.
+            I'm Thanh, a student passionate about
+            <span className='font-semibold'> UI/UX Design</span>. I love crafting intuitive and visually appealing interfaces for web and mobile applications.
           </div>
           <p className="text-lg text-gray-800 mt-4 max-w-2xl italic">
             Welcome to my portfolio!

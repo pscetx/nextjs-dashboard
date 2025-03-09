@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lusitana.className} bg-orange-50 antialiased`}
+        className={`${lusitana.className} bg-amber-50 antialiased`}
       >
         <ElegantCursor />
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">

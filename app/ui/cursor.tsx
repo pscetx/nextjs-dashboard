@@ -27,7 +27,7 @@ export default function ElegantCursor() {
 
   return (
     <div
-      className={`md:block hidden pointer-events-none fixed top-0 left-0 w-6 h-6 rounded-full transition-transform duration-100 ease-out 
+      className={`pointer-events-none fixed top-0 left-0 w-6 h-6 rounded-full transition-transform duration-100 ease-out 
         ${clicked ? "bg-amber-800" : "bg-gray-500"} opacity-80`}
       style={{
         transform: `translate(${pos.x - 12}px, ${pos.y - 12}px)`,
