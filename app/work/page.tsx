@@ -19,14 +19,14 @@ export default function Page() {
           <Card 
             thumbnailUrl="/placeholder.png"
             text="VNU Office"
-            blobColor="#7579de"
+            blobColor="#f8a720"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="Museum Fun"
-            blobColor="#78b4e8"
+            blobColor="#ed6325"
           />
         </Link>
         <Link href="/work/fit-journey">
@@ -42,16 +42,16 @@ export default function Page() {
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/sme-iti">
           <Card 
-            thumbnailUrl="/placeholder.png"
-            text="Công cụ đánh giá ATTT cho SMEs"
+            thumbnailUrl="/si-Thumbnail.png"
+            text="Cybersecurity Assessment for SMEs"
             blobColor="#b10913"
           />
         </Link>
         <Link href="/work/graphic-design">
           <Card 
-            thumbnailUrl="/placeholder.png"
+            thumbnailUrl="/gd-Thumbnail.png"
             text="Graphic Design"
-            blobColor="#94dfcf"
+            blobColor="#9bcdd1"
           />
         </Link>
       </div>

@@ -8,7 +8,7 @@ const FigmaEmbed: React.FC<FigmaEmbedProps> = ({ figmaUrl }) => {
   return (
     <div className="flex h-screen items-center justify-center">
       <iframe
-        className="h-[600px] w-full max-w-4xl rounded-xl"
+        className="h-[600px] w-full rounded-xl"
         src={`https://www.figma.com/embed?embed_host=share&url=${encodeURIComponent(figmaUrl)}`}
         allowFullScreen
       ></iframe>
