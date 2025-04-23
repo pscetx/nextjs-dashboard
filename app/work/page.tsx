@@ -10,16 +10,9 @@ export default function Page() {
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/fj-Thumbnail.png"
-            text="Fit Journey"
-            blobColor="#37d2b2"
-          />
-        </Link>
-        <Link href="/work/vnu-office">
-          <Card 
             thumbnailUrl="/placeholder.png"
-            text="VNU Office"
-            blobColor="#B24716"
+            text="Coming soon"
+            blobColor="#B3007B"
           />
         </Link>
         <Link href="/work/museum-fun">
@@ -29,16 +22,23 @@ export default function Page() {
             blobColor="#2BA6B3"
           />
         </Link>
-        <Link href="/work/fit-journey">
+        <Link href="/work/vnu-office">
           <Card 
             thumbnailUrl="/placeholder.png"
-            text="Coming soon"
-            blobColor="#B3007B"
+            text="VNU Office"
+            blobColor="#B24716"
+          />
+        </Link>
+        <Link href="/work/fit-journey">
+          <Card 
+            thumbnailUrl="/fj-Thumbnail.png"
+            text="Fit Journey"
+            blobColor="#37d2b2"
           />
         </Link>
       </div>
 
-      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Other work</h1>
+      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Other works</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/sme-iti">
           <Card 
