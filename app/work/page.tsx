@@ -15,24 +15,24 @@ export default function Page() {
             blobColor="#94dfcf"
           />
         </Link>
-        <Link href="/work/fit-journey">
+        <Link href="/work/vnu-office">
           <Card 
-            thumbnailUrl="/thumbnail-vnu-office.png"
+            thumbnailUrl="/placeholder.png"
             text="VNU Office"
             blobColor="#7579de"
           />
         </Link>
-        <Link href="/work/fit-journey">
+        <Link href="/work/museum-fun">
           <Card 
-            thumbnailUrl="/thumbnail-museum-fun.png"
+            thumbnailUrl="/placeholder.png"
             text="Museum Fun"
             blobColor="#78b4e8"
           />
         </Link>
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/thumbnail-vnu-office.png"
-            text="VNU Office"
+            thumbnailUrl="/placeholder.png"
+            text="Coming soon"
             blobColor="#7579de"
           />
         </Link>
@@ -40,17 +40,17 @@ export default function Page() {
 
       <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Other work</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
-        <Link href="/work/fit-journey">
+        <Link href="/work/sme-iti">
           <Card 
-            thumbnailUrl="/thumbnail-museum-fun.png"
-            text="Museum Fun"
-            blobColor="#78b4e8"
+            thumbnailUrl="/placeholder.png"
+            text="Công cụ đánh giá ATTT cho SMEs"
+            blobColor="#b10913"
           />
         </Link>
-        <Link href="/work/fit-journey">
+        <Link href="/work/graphic-design">
           <Card 
-            thumbnailUrl="/fj-Thumbnail.png"
-            text="Fit Journey"
+            thumbnailUrl="/placeholder.png"
+            text="Graphic Design"
             blobColor="#94dfcf"
           />
         </Link>

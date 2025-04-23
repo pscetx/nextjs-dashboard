@@ -58,25 +58,25 @@ export default function HeroSection() {
 
       <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured work</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
+        <Link href="/work/vnu-office">
+          <Card 
+            thumbnailUrl="/placeholder.png"
+            text="VNU Office"
+            blobColor="#7579de"
+          />
+        </Link>
+        <Link href="/work/museum-fun">
+          <Card 
+            thumbnailUrl="/placeholder.png"
+            text="Museum Fun"
+            blobColor="#78b4e8"
+          />
+        </Link>
         <Link href="/work/fit-journey">
           <Card 
             thumbnailUrl="/fj-Thumbnail.png"
             text="Fit Journey"
             blobColor="#94dfcf"
-          />
-        </Link>
-        <Link href="/work/fit-journey">
-          <Card 
-            thumbnailUrl="/thumbnail-vnu-office.png"
-            text="VNU Office"
-            blobColor="#7579de"
-          />
-        </Link>
-        <Link href="/work/fit-journey">
-          <Card 
-            thumbnailUrl="/thumbnail-museum-fun.png"
-            text="Museum Fun"
-            blobColor="#78b4e8"
           />
         </Link>
       </div>
