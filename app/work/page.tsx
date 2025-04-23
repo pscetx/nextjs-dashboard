@@ -12,28 +12,28 @@ export default function Page() {
           <Card 
             thumbnailUrl="/fj-Thumbnail.png"
             text="Fit Journey"
-            blobColor="#94dfcf"
+            blobColor="#37d2b2"
           />
         </Link>
         <Link href="/work/vnu-office">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="VNU Office"
-            blobColor="#f8a720"
+            blobColor="#B24716"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="Museum Fun"
-            blobColor="#ed6325"
+            blobColor="#2BA6B3"
           />
         </Link>
         <Link href="/work/fit-journey">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="Coming soon"
-            blobColor="#7579de"
+            blobColor="#B3007B"
           />
         </Link>
       </div>
@@ -44,14 +44,14 @@ export default function Page() {
           <Card 
             thumbnailUrl="/si-Thumbnail.png"
             text="Cybersecurity Assessment for SMEs"
-            blobColor="#b10913"
+            blobColor="#c83e42"
           />
         </Link>
         <Link href="/work/graphic-design">
           <Card 
             thumbnailUrl="/gd-Thumbnail.png"
             text="Graphic Design"
-            blobColor="#9bcdd1"
+            blobColor="#8040bb"
           />
         </Link>
       </div>

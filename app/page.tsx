@@ -62,14 +62,14 @@ export default function HeroSection() {
           <Card 
             thumbnailUrl="/placeholder.png"
             text="VNU Office"
-            blobColor="#f8a720"
+            blobColor="#B24716"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="Museum Fun"
-            blobColor="#ed6325"
+            blobColor="#2BA6B3"
           />
         </Link>
         <Link href="/work/fit-journey">
