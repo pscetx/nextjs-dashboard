@@ -56,7 +56,7 @@ export default function HeroSection() {
     </section>
 
 
-      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured work</h1>
+      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured works</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/vnu-office">
           <Card 
