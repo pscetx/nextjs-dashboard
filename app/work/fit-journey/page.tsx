@@ -22,7 +22,7 @@ export default function Page() {
             <span className={`${montserrat.className} text-xs text-amber-600 font-extrabold`}>COMPLETED</span> oct. 2024
           </div>
           <div className="flex items-center gap-2">
-            <span className={`${montserrat.className} text-xs text-amber-600 font-extrabold`}>ROLE</span>ui designer
+            <span className={`${montserrat.className} text-xs text-amber-600 font-extrabold`}>ROLE</span>ux designer
           </div>
         </div>
 
