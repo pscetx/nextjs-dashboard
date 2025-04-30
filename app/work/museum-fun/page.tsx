@@ -24,6 +24,8 @@ export default function Page() {
             <span className={`${montserrat.className} text-xs text-amber-600 font-extrabold`}>ROLE</span>ux designer
           </div>
         </div>
+
+        <Image className='rounded-xl' src="/mf-Thumbnail.png" width={1000} height={50} alt="Thumbnail" priority />
       </div>
     </div>
   );

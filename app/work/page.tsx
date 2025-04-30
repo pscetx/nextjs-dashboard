@@ -6,27 +6,27 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="w-full">
-      <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">UI/UX design</h1>
+      <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">UX design</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/fit-journey">
           <Card 
             thumbnailUrl="/placeholder.png"
             text="Coming soon"
-            blobColor="#B3007B"
+            blobColor="#ededee"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
-            thumbnailUrl="/placeholder.png"
+            thumbnailUrl="/mf-Thumbnail.png"
             text="Museum Fun"
-            blobColor="#2BA6B3"
+            blobColor="#d8bb74"
           />
         </Link>
         <Link href="/work/vnu-office">
           <Card 
-            thumbnailUrl="/placeholder.png"
+            thumbnailUrl="/vo-Thumbnail.jpg"
             text="VNU Office"
-            blobColor="#B24716"
+            blobColor="#00833f"
           />
         </Link>
         <Link href="/work/fit-journey">

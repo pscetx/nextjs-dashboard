@@ -8,7 +8,7 @@ const TextFlip = () => {
       <div className="card">
         <div className="card-inner">
           <div className="card-front">
-            <p className={`${montserrat.className} text-3xl md:text-5xl text-amber-800 font-semibold tracking-wider`}>HELLO THERE!</p>
+            <p className={`${montserrat.className} text-3xl md:text-5xl text-amber-800 font-semibold tracking-wider`}>Hello there!</p>
           </div>
           <div className="card-back">
             <p className='text-3xl md:text-5xl text-amber-800 italic font-semibold tracking-wider'>GENERAL KENOBI!</p>

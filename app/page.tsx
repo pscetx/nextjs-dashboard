@@ -35,8 +35,7 @@ export default function HeroSection() {
   
   return (
     <div className="w-full">
-
-      <section className="relative h-[93vh] w-full flex flex-col justify-between p-10 border border-gray-200 shadow-sm bg-gradient-to-br from-gray-50 via-amber-50 to-amber-100 rounded-xl overflow-hidden">
+      <section className="relative h-[93vh] w-full flex flex-col justify-between p-10 border border-gray-50 bg-gradient-to-tr from-white to-amber-50 rounded-xl overflow-hidden">
       <div ref={blob1} className="md:block hidden absolute w-60 h-60 bg-amber-100 opacity-30 blur-3xl rounded-full transition-transform duration-300 ease-out" />
       <div ref={blob2} className="md:block hidden absolute w-80 h-80 bg-amber-300 opacity-20 blur-3xl rounded-full transition-transform duration-500 ease-out" />
       <div ref={blob3} className="md:block hidden absolute w-72 h-72 bg-amber-500 opacity-25 blur-3xl rounded-full transition-transform duration-700 ease-out" />
@@ -45,7 +44,7 @@ export default function HeroSection() {
           <TextFlip />
           <div className="text-lg text-gray-800 mt-4 max-w-3xl">
             I'm Thanh, a student passionate about
-            <span className='font-semibold'> UI/UX Design</span>. I love crafting intuitive and visually appealing interfaces for web and mobile applications.
+            <span className='font-semibold'> UX Design</span>. I love crafting intuitive and visually appealing interfaces for web and mobile applications.
           </div>
           <p className="text-lg text-gray-800 mt-4 max-w-2xl italic">
             Welcome to my portfolio!
@@ -58,18 +57,18 @@ export default function HeroSection() {
 
       <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Featured works</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
-        <Link href="/work/vnu-office">
-          <Card 
-            thumbnailUrl="/placeholder.png"
-            text="VNU Office"
-            blobColor="#B24716"
-          />
-        </Link>
         <Link href="/work/museum-fun">
           <Card 
-            thumbnailUrl="/placeholder.png"
+            thumbnailUrl="/mf-Thumbnail.png"
             text="Museum Fun"
-            blobColor="#2BA6B3"
+            blobColor="#d8bb74"
+          />
+        </Link>
+        <Link href="/work/vnu-office">
+          <Card 
+            thumbnailUrl="/vo-Thumbnail.jpg"
+            text="VNU Office"
+            blobColor="#00833f"
           />
         </Link>
         <Link href="/work/fit-journey">

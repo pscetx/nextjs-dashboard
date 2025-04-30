@@ -8,7 +8,7 @@ export default function Page() {
       <section className="md:h-[93vh] flex flex-col md:flex-row items-center max-w-4xl mx-auto p-8">
       <Image className="w-5/6 md:w-1/2 rounded-lg shadow-md" src="/portrait.jpg" width={2000} height={50} alt="portrait" priority />
       <div className="w-full md:w-5/6 md:pl-8">
-          <h2 className={`${montserrat.className} my-8 md:mt-0 text-3xl md:text-5xl font-bold text-amber-800 opacity-60`}>Thanh Pham</h2>
+        <h2 className={`${montserrat.className} my-4 md:mt-0 text-3xl md:text-5xl font-bold text-amber-800 opacity-60`}>Thanh Pham</h2>
         <p className="text-lg font-semibold text-gray-800">
           Thanh is a passionate student exploring the world of design and digital experiences.
         </p>

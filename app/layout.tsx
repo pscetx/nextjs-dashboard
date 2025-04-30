@@ -8,8 +8,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: { template: '%s | Phạm Công Thành', default: 'Phạm Công Thành' },
-  description: 'Designer / Web Developer',
+  title: { template: '%s | Phạm Công Thành', default: 'Phạm Công Thành - UX Designer' },
+  description: 'UX Designer / Web Developer',
   metadataBase: new URL('https://phamcongthanh.vercel.app'),
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lusitana.className} bg-amber-50 antialiased`}
+        className={`${lusitana.className} bg-gradient-to-b from-gray-50 via-white to-amber-50 antialiased`}
       >
         <ElegantCursor />
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
