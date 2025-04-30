@@ -5,10 +5,10 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="p-6 w-full">
-      <div className='flex flex-col items-center justify-center space-y-6'>
-        <h1 className='text-4xl md:text-6xl'>Fit Journey</h1>
+      <div className='flex flex-col items-center justify-center space-y-6 md:space-y-10'>
+        <h1 className='text-4xl md:text-6xl'>FitJourney</h1>
         <p className="mt-4 text-xl text-gray-800 text-center max-w-3xl mx-auto italic">
-          A gamified fitness app that transforms your health goals into a rewarding journey. <br />
+          Gamified fitness app that transforms your health goals into a rewarding journey. <br />
           Do excercises, complete challenges, and stay motivated every step of the way!
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-gray-600 text-lg font-medium">
@@ -33,9 +33,11 @@ export default function Page() {
         <Image className='rounded-xl' src="/fj-Showcase1.png" width={1000} height={50} alt="Showcase #1" priority />
         <Image className='rounded-xl' src="/fj-Showcase2.png" width={1000} height={50} alt="Showcase #2" priority />
         <Image className='rounded-xl' src="/fj-Showcase3.png" width={1000} height={50} alt="Showcase #3" priority />
-        <Image className='rounded-xl' src="/fj-Prototype.png" width={1000} height={50} alt="Prototype" priority />
-        <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
-        <Image className='rounded-xl' src="/fj-Thank You.png" width={1000} height={50} alt="Thank You" priority />
+        <div>
+          <Image className='rounded-xl' src="/fj-Prototype.png" width={1000} height={50} alt="Prototype" priority />
+          <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
+          <Image className='rounded-xl' src="/fj-Thank You.png" width={1000} height={50} alt="Thank You" priority />
+        </div>
       </div>
     </div>
   );

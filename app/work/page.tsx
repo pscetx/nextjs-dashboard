@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="w-full">
-      <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">UX design</h1>
+      <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-wide">UI/UX design</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/fit-journey">
           <Card 
@@ -18,7 +18,7 @@ export default function Page() {
         <Link href="/work/museum-fun">
           <Card 
             thumbnailUrl="/mf-Thumbnail.png"
-            text="Museum Fun"
+            text="MuseumFun"
             blobColor="#d8bb74"
           />
         </Link>
@@ -32,13 +32,13 @@ export default function Page() {
         <Link href="/work/fit-journey">
           <Card 
             thumbnailUrl="/fj-Thumbnail.png"
-            text="Fit Journey"
+            text="FitJourney"
             blobColor="#37d2b2"
           />
         </Link>
       </div>
 
-      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-widest italic">Other works</h1>
+      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-wide">Other works</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/sme-iti">
           <Card 
@@ -47,10 +47,10 @@ export default function Page() {
             blobColor="#c83e42"
           />
         </Link>
-        <Link href="/work/graphic-design">
+        <Link href="/work/graphic-designs">
           <Card 
             thumbnailUrl="/gd-Thumbnail.png"
-            text="Graphic Design"
+            text="Graphic designs"
             blobColor="#8040bb"
           />
         </Link>

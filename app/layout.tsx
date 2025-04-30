@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${lusitana.className} bg-gradient-to-b from-gray-50 via-white to-amber-50 antialiased`}
+        className={`${lusitana.className} min-h-screen bg-gradient-to-b from-gray-50 via-white to-amber-50 bg-no-repeat bg-fixed antialiased`}
       >
         <ElegantCursor />
         <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="flex-grow p-6 md:overflow-y-auto md:py-6 md:pl-0">
             <PageWrapper>{children}</PageWrapper>
             <div className='mt-8 flex justify-between items-center'>
-              <p className='text-xl md:text-2xl italic text-gray-800 tracking-wide'>
+              <p className='text-xl md:text-2xl text-gray-800 tracking-wide'>
                 Let's chat! Reach me at <strong>pscetxvn@gmail.com</strong>
               </p>
               <Link

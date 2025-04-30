@@ -5,8 +5,8 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="p-6 w-full">
-      <div className='flex flex-col items-center justify-center space-y-6'>
-        <h1 className='text-4xl md:text-6xl'>Museum Fun</h1>
+      <div className='flex flex-col items-center justify-center space-y-6 md:space-y-10'>
+        <h1 className='text-4xl md:text-6xl'>MuseumFun</h1>
         <p className="mt-4 text-xl text-gray-800 text-center max-w-3xl mx-auto italic">
           Transforms the museum experience by using augmented reality and interactive activites to bring exhibits to life, offering an immersive storytelling as visitors explore!
         </p>
