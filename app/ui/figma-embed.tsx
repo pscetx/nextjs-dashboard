@@ -6,7 +6,7 @@ interface FigmaEmbedProps {
 
 const FigmaEmbed: React.FC<FigmaEmbedProps> = ({ figmaUrl }) => {
   return (
-    <div className="flex h-screen items-center justify-center">
+    <div className="flex h-[90vh] items-center justify-center">
       <iframe
         className="h-[600px] w-full rounded-xl"
         src={`https://www.figma.com/embed?embed_host=share&url=${encodeURIComponent(figmaUrl)}`}
