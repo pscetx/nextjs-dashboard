@@ -18,7 +18,7 @@ export default function Page() {
       <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
         <h1 className='text-4xl md:text-6xl text-gray-800'>VNU Office</h1>
         <p className="mt-4 text-xl text-center max-w-3xl mx-auto italic">
-          Platform designed to streamline internal project management, communication, and document handling across departments at VNU. Aims to enhance collaboration, tracks progress, and ensures transparency in day-to-day operations for staff and administrators.
+          Platform designed to streamline internal project management, communication, and document handling across departments at VNU.
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2">

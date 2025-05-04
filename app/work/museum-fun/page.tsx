@@ -63,7 +63,7 @@ export default function Page() {
         <div className="w-full md:w-4/5">
           <h2 className="mt-10 text-3xl font-bold text-gray-800">New ways to experience history.</h2>
           <p className="mt-4">
-            This project reimagines how people explore exhibitions by making interaction seamless, educational, and fun. Above all, we designed the application with children in mind—curious, energetic, easily distracted, and full of questions. Traditional museums often struggle to hold the attention of young visitors, relying on static displays and lengthy labels that don’t speak their language. We saw an opportunity to bridge that gap with a more engaging, interactive experience.
+            This project reimagines how people explore exhibitions by making interaction seamless, educational, and fun. Above all, we designed the application with children in mind — curious, energetic, easily distracted, and full of questions. Traditional museums often struggle to hold the attention of young visitors, relying on static displays and lengthy labels that don’t speak their language. We saw an opportunity to bridge that gap with a more engaging, interactive experience.
           </p>
           
           {/* Section 1 */}
