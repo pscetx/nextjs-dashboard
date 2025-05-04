@@ -50,7 +50,7 @@ export default function Page() {
         <Link href="/work/graphic-designs">
           <Card 
             thumbnailUrl="/gd-Thumbnail.png"
-            text="Graphic designs"
+            text="Graphic Designs"
             blobColor="#8040bb"
           />
         </Link>

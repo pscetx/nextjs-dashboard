@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="p-6 w-full">
       <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
-        <h1 className='text-4xl md:text-6xl text-gray-800'>Graphic designs</h1>
+        <h1 className='text-4xl md:text-6xl text-gray-800'>Graphic Designs</h1>
         <p className="mt-4 text-xl text-center max-w-3xl mx-auto italic">
           Designs and arts created using Adobe Photoshop, Illustrator & InDesign. <br />
         </p>

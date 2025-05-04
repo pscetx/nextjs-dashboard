@@ -23,7 +23,7 @@ export default function Page() {
             <span className={`${montserrat.className} text-xs text-amber-700 font-extrabold`}>COMPLETED</span> october 2024
           </div>
           <div className="flex items-center gap-2">
-            <span className={`${montserrat.className} text-xs text-amber-700 font-extrabold`}>ROLE</span>visual designer
+            <span className={`${montserrat.className} text-xs text-amber-700 font-extrabold`}>ROLE</span>lead visual designer
           </div>
         </div>
 

@@ -154,17 +154,17 @@ export default function Page() {
           <p className="mt-2">
             We identified several common pain pointsusers experienced when using the prototype:
           </p>
-          <div className="mt-4 p-2 bg-amber-50 border-l-4 border-amber-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-amber-50 border-b-2 border-amber-300 rounded-md shadow-sm">
             <p className="text-amber-900">
               It was observed that <strong>4 out of 5</strong> participants were unsure what to do after scanning a QR code. This means that the post-scan experience was not immediately intuitive for many users.
             </p>
           </div>
-          <div className="mt-4 p-2 bg-amber-50 border-l-4 border-amber-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-amber-50 border-b-2 border-amber-300 rounded-md shadow-sm">
             <p className="text-amber-900">
               It was observed that <strong>5 out of 5</strong> participants accidentally quit a quiz without receiving any confirmation or warning. This means that it was too easy for users to leave a challenge without realizing it, which could cause frustration or lost progress.
             </p>
           </div>
-          <div className="mt-4 p-2 bg-amber-50 border-l-4 border-amber-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-amber-50 border-b-2 border-amber-300 rounded-md shadow-sm">
             <p className="text-amber-900">
               It was observed that <strong>2 out of 5</strong> participants found the quiz questions exciting and wanted to complete more than required. This means that the quiz challenges were engaging for some users, but not yet for everyone.
             </p>
@@ -198,23 +198,23 @@ export default function Page() {
           <p className="mt-2">
             This project was a valuable learning experience for me, both creatively and professionally. I deepened my understanding of:
           </p>
-          <div className="mt-4 p-2 bg-emerald-50 border-l-4 border-emerald-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-emerald-50 border-b-2 border-emerald-300 rounded-md shadow-sm">
             <p className="text-emerald-900">
               <strong>The Design Process:</strong> From empathizing, defining and ideation to prototyping and testing, I experienced the full cycle of product design in a real-world context.
             </p>
           </div>
-          <div className="mt-4 p-2 bg-emerald-50 border-l-4 border-emerald-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-emerald-50 border-b-2 border-emerald-300 rounded-md shadow-sm">
             <p className="text-emerald-900">
               <strong>Human-centered Design:</strong> I learned how to prioritize user needs, especially when designing for children, by putting empathy at the core of every decision.
             </p>
           </div>
-          <div className="mt-4 p-2 bg-emerald-50 border-l-4 border-emerald-200 rounded-md shadow-sm">
+          <div className="mt-4 p-2 bg-emerald-50 border-b-2 border-emerald-300 rounded-md shadow-sm">
             <p className="text-emerald-900">
               <strong>Figma:</strong> I became much more confident using Figma to create wireframes, components, and interactive prototypes, streamlining both design and collaboration.
             </p>
           </div>
-
         </div>
+        
       </div>
     </div>
   );
