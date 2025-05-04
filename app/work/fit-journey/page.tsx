@@ -1,10 +1,20 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
 import FigmaEmbed from '@/app/ui/figma-embed';
 import { montserrat } from '@/app/ui/fonts';
 import Image from 'next/image';
 
 export default function Page() {
+  const router = useRouter();
   return (
     <div className="p-6 w-full">
+      <button
+        onClick={() => router.back()}
+        className="mb-6 text-amber-900 hover:underline text-xl"
+      >
+        ← back
+      </button>
       <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
         <h1 className='text-4xl md:text-6xl text-gray-800'>FitJourney</h1>
         <p className="mt-4 text-xl text-center max-w-3xl mx-auto italic">

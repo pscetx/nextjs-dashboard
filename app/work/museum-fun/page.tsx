@@ -1,5 +1,6 @@
 'use client';
 
+import { useRouter } from 'next/navigation';
 import FigmaEmbed from '@/app/ui/figma-embed';
 import { montserrat } from '@/app/ui/fonts';
 import Image from 'next/image';
@@ -26,9 +27,16 @@ export default function Page() {
   const goToNext = () => {
     setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1))
   }
-
+  const router = useRouter();
+  
   return (
     <div className="p-6 w-full">
+      <button
+        onClick={() => router.back()}
+        className="mb-6 text-amber-900 hover:underline text-xl"
+      >
+        ← back
+      </button>
       <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
         <h1 className='text-4xl md:text-6xl text-gray-800'>MuseumFun</h1>
         <p className="mt-4 text-xl text-center max-w-3xl mx-auto italic">
@@ -59,7 +67,7 @@ export default function Page() {
           </p>
           
           {/* Section 1 */}
-          <h3 className="mt-20 text-3xl text-amber-800 font-bold">I. The challenges</h3>
+          <h3 className="mt-20 text-3xl text-amber-800 font-bold">The challenges</h3>
           
           <p className="mt-2">
             Designing a mobile app for a museum isn’t just about digitizing information — it’s about enriching the physical space through a meaningful digital layer. And that came with its own set of challenges:
@@ -80,7 +88,7 @@ export default function Page() {
           </div>
 
           {/* Section 2 */}
-          <h3 className="mt-20 text-3xl text-amber-800 font-bold">II. Understanding the User</h3>
+          <h3 className="mt-20 text-3xl text-amber-800 font-bold">Understanding the User</h3>
           
           <p className="mt-2">
             To ground our ideas in real-world behavior, we observed how kids, families, and educators interact with physical exhibit spaces. We asked key questions like:
@@ -135,7 +143,7 @@ export default function Page() {
           </div>
 
           {/* Section 3 */}
-          <h3 className="mt-20 text-3xl text-amber-800 font-bold">III. Starting the design</h3>
+          <h3 className="mt-20 text-3xl text-amber-800 font-bold">Starting the design</h3>
           <p className="mt-2">
             We created concept sketches to explore ways of streamlining the process and providing users with clear instructions.
             Taking the time to draft iterations of each screen of the app on paper ensured that the elements that made it to digital wireframes would be well-suited to address user pain points. For the home screen, We prioritized a visually appealing look to appeal to children.
@@ -171,7 +179,7 @@ export default function Page() {
           </div>
 
           {/* Section 4 */}
-          <h3 className="mt-20 text-3xl text-amber-800 font-bold">IV. Refining the design</h3>
+          <h3 className="mt-20 text-3xl text-amber-800 font-bold">Refining the design</h3>
           <p className="mt-4">
             With usability insights in hand, we developed a flexible and adaptable design system — featuring a cohesive grid, color palette, typography, iconography and UI components. The system was built to scale and evolve with the project, ensuring consistency across screens while allowing for rapid iteration.
           </p>
@@ -187,7 +195,7 @@ export default function Page() {
           <FigmaEmbed figmaUrl="https://www.figma.com/proto/3lgReeL93JbVcRhgVVRmAY/MuseumFun-App---Web?page-id=47%3A50&node-id=60-2550&starting-point-node-id=60%3A2550&t=vVJE0jTXwTmQGfoN-1" />
           
           {/* Section 5 */}
-          <h3 className="mt-16 text-3xl text-amber-800 font-bold">V. Going forward</h3>
+          <h3 className="mt-16 text-3xl text-amber-800 font-bold">Going forward</h3>
           <p className="mt-2">
             Even though we completed the initial design process, we see room for further improvement and iteration. Some areas we’re excited to explore next include:
           </p>
