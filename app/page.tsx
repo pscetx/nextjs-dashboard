@@ -59,14 +59,14 @@ export default function HeroSection() {
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/museum-fun">
           <Card 
-            thumbnailUrl="/mf-Thumbnail.png"
+            thumbnailUrl="/mf-Thumbnail.jpg"
             text="MuseumFun"
             blobColor="#d8bb74"
           />
         </Link>
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/fj-Thumbnail.png"
+            thumbnailUrl="/fj-Thumbnail.jpg"
             text="FitJourney"
             blobColor="#94dfcf"
           />

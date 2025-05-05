@@ -10,14 +10,14 @@ export default function Page() {
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/placeholder.png"
+            thumbnailUrl="/placeholder.jpg"
             text="Coming soon"
             blobColor="#ededee"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
-            thumbnailUrl="/mf-Thumbnail.png"
+            thumbnailUrl="/mf-Thumbnail.jpg"
             text="MuseumFun"
             blobColor="#d8bb74"
           />
@@ -31,7 +31,7 @@ export default function Page() {
         </Link>
         <Link href="/work/fit-journey">
           <Card 
-            thumbnailUrl="/fj-Thumbnail.png"
+            thumbnailUrl="/fj-Thumbnail.jpg"
             text="FitJourney"
             blobColor="#37d2b2"
           />
@@ -42,14 +42,14 @@ export default function Page() {
       <div className="flex md:flex-row md:flex-wrap flex-col">
         <Link href="/work/sme-iti">
           <Card 
-            thumbnailUrl="/si-Thumbnail.png"
+            thumbnailUrl="/si-Thumbnail.jpg"
             text="Cybersecurity Assessment for SMEs"
             blobColor="#c83e42"
           />
         </Link>
         <Link href="/work/graphic-designs">
           <Card 
-            thumbnailUrl="/gd-Thumbnail.png"
+            thumbnailUrl="/gd-Thumbnail.jpg"
             text="Graphic Designs"
             blobColor="#8040bb"
           />
