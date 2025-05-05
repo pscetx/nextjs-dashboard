@@ -13,10 +13,10 @@ export default function Page() {
           Thanh is a passionate student exploring the world of design and digital experiences.
         </p>
         <p className="mt-2 text-gray-800">
-          Based in Hanoi, they are dedicated to learning UX/UI principles and developing creative solutions that make an impact.
+          Based in Hanoi, they are dedicated to learning UI/UX principles and developing creative solutions that can make an impact.
         </p>
         <p className="mt-2 text-gray-800">
-          Besides design, Thanh enjoys playing the piano, dancing, embracing outdoor activities and staying in touch with the community.
+          Besides design, Thanh enjoys playing the piano, embracing outdoor activities and staying in touch with the community.
         </p>
       </div>
     </section>
