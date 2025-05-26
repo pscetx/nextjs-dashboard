@@ -34,13 +34,22 @@ export default function RootLayout({
               <p className='text-xl md:text-2xl text-gray-800 tracking-wide'>
                 Let's chat! Reach me at <strong>pscetxvn@gmail.com</strong>
               </p>
-              <Link
-                href="https://www.behance.net/thnhphm118"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Image src="/behance.png" width={60} height={60} alt="logo" priority />
-              </Link>
+              <div className='flex items-center gap-4'>
+                <Link
+                  href="https://www.linkedin.com/in/pscetx/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src="/linkedin.png" width={30} height={30} alt="logo" priority />
+                </Link>
+                <Link
+                  href="https://www.behance.net/thnhphm118"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Image src="/behance.png" width={60} height={60} alt="logo" priority />
+                </Link>
+              </div>
             </div>
           </div>
         </div>

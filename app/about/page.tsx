@@ -24,7 +24,7 @@ export default function Page() {
       <div className="flex flex-col items-center justify-center">
         <DownloadButton />
         <iframe
-          src="/PhamCongThanh_UIUXDesigner_CV.pdf"
+          src="/PhamCongThanh_UIUXDesigner_Resume.pdf"
           className="md:w-[802px] md:h-[1173px] w-[300px] h-[435px] rounded-md"
           style={{ border: "none" }}
         ></iframe>
