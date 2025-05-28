@@ -23,7 +23,7 @@ export default function NavLinks() {
             key={link.href}
             href={link.href}
             className={clsx(
-              'relative flex h-10 grow items-center justify-center gap-2 p-3 tracking-widest text-center before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:max-w-[150px] before:rounded-full before:bg-amber-500 before:opacity-0 before:blur-md before:transition-opacity before:duration-500 hover:text-amber-800 hover:before:opacity-80 md:flex-none md:p-2 md:px-3',
+              'relative flex h-10 grow items-center rounded-full justify-center gap-2 p-4 tracking-widest before:absolute before:inset-0 before:m-auto before:h-[10%] before:w-full before:max-w-[60px] before:bg-amber-500 before:opacity-0 before:blur-sm before:transition-opacity before:duration-500 hover:text-amber-800 hover:before:opacity-100',
               {
                 'text-gray-800 before:opacity-50': pathname === link.href,
               },

@@ -19,7 +19,7 @@ export default function Page() {
           <Card 
             thumbnailUrl="/mf-Thumbnail.jpg"
             text="MuseumFun"
-            blobColor="#d8bb74"
+            blobColor="#ffe197"
           />
         </Link>
         <Link href="/work/vnu-office">

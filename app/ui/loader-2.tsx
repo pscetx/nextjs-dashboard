@@ -16,7 +16,7 @@ const StyledWrapper = styled.div`
   .cloud {
     width: 150px;
     height: 70px;
-    background: #f3f4f6;
+    background: #f9fafb;
     box-shadow: 5px 5px rgba(0,0,0,0.1);
     border-radius: 70px;
   }

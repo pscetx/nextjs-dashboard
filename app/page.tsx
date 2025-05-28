@@ -44,7 +44,7 @@ export default function HeroSection() {
           <TextFlip />
           <div className="text-lg text-gray-800 mt-2 max-w-3xl">
             I'm Thanh, a student passionate about
-            <span className='font-semibold'> User Experience Design</span>. I love designing clean and engaging interfaces that make web and mobile applications both intuitive and visually compelling.
+            <span className='font-semibold'> UX Design</span>. I love designing clean and engaging experiences that make web and mobile applications both intuitive and visually compelling!
           </div>
           <p className="text-lg text-gray-800 mt-2 max-w-2xl">
             Welcome to my portfolio!
@@ -61,7 +61,7 @@ export default function HeroSection() {
           <Card 
             thumbnailUrl="/mf-Thumbnail.jpg"
             text="MuseumFun"
-            blobColor="#d8bb74"
+            blobColor="#ffe197"
           />
         </Link>
         <Link href="/work/fit-journey">
