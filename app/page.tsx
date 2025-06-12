@@ -44,7 +44,7 @@ export default function HeroSection() {
           <TextFlip />
           <div className="text-lg text-gray-800 mt-2 max-w-3xl">
           I'm Thanh, a designer with a passion for
-            <span className='font-semibold'> User Experience</span>. I love coming up with clean, thoughtful designs that make web and mobile applications both intuitive and visually engaging.
+            <span className='font-semibold'> User Experience</span>. I love coming up with clean, human-centered designs that make web and mobile applications both intuitive and visually engaging.
           </div>
           <p className="text-lg text-gray-800 mt-2 max-w-2xl">
             Welcome to my portfolio!
