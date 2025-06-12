@@ -10,7 +10,7 @@ export default function Page() {
       <div className="w-full md:w-5/6 md:pl-8">
         <h2 className={`${montserrat.className} mt-8 mb-4 md:mt-0 text-3xl md:text-5xl font-bold text-amber-800 opacity-60`}>Thanh Pham</h2>
         <p className="text-lg font-semibold text-gray-800">
-          Thanh is a passionate student exploring the world of design and digital experiences.
+          Thanh is working as Visual Designer at Lubu, shaping user experiences and design systems for early-stage innovation.
         </p>
         <p className="mt-2 text-gray-800">
           Based in Hanoi, they are dedicated to learning UI/UX principles and developing creative solutions that can make an impact.
