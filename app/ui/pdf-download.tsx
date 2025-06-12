@@ -1,7 +1,7 @@
 "use client";
 
 export default function DownloadButton() {
-  const filePath = "/PhamCongThanh_UIUXDesigner_CV.pdf";
+  const filePath = "/PhamCongThanh_UIUXDesigner_Resume.pdf";
 
   const handleDownload = () => {
     const link = document.createElement("a");
