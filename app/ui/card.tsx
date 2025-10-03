@@ -18,7 +18,7 @@ const Card: React.FC<CardProps> = ({ thumbnailUrl, text, blobColor = '#ecfcca' }
           <div className="bg" />
           <div className="blob" />
         </div>
-        <div className="flex flex-row group relative items-center justify-center gap-2 p-3 mt-2 tracking-widest text-center text-gray-500 text-lg before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:rounded-full before:bg-amber-500 before:opacity-0 before:blur-md before:transition-opacity before:duration-500 group-hover:text-amber-800 group-hover:before:opacity-50">
+        <div className="flex flex-row group relative items-center justify-center gap-2 p-3 mt-2 tracking-widest text-center text-gray-500 text-lg before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:rounded-full before:opacity-0 before:blur-md before:transition-opacity before:duration-500 group-hover:text-amber-800 group-hover:before:opacity-50">
           <span>{text}</span>
           <ArrowRightIcon className="w-6 h-6 transition-transform duration-300 transform -rotate-45 group-hover:rotate-0" />
         </div>
@@ -39,7 +39,7 @@ const StyledWrapper = styled.div.attrs<{ $blobColor: string }>(() => ({}))`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 4px 4px 8px #f3f4f6, -1px -1px 2px #e5e7eb;
+    box-shadow: 4px 4px 4px #f5f5f5ff, -1px -1px 2px #f5f5f5ff;
   }
 
   .bg {

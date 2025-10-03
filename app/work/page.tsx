@@ -8,32 +8,32 @@ export default function Page() {
     <div className="w-full">
       <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-wide">UI/UX design</h1>
       <div className="flex md:flex-row md:flex-wrap flex-col">
-        <Link href="/work/fit-journey">
+        <Link href="/work/lubumall">
           <Card 
-            thumbnailUrl="/placeholder.jpg"
+            thumbnailUrl="/lm-Thumbnail.jpg"
             text="Coming soon"
-            blobColor="#ededee"
+            blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/museum-fun">
           <Card 
             thumbnailUrl="/mf-Thumbnail.jpg"
             text="MuseumFun"
-            blobColor="#ffe197"
+            blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/vnu-office">
           <Card 
             thumbnailUrl="/vo-Thumbnail.jpg"
             text="VNU Office"
-            blobColor="#00833f"
+            blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/fit-journey">
           <Card 
             thumbnailUrl="/fj-Thumbnail.jpg"
             text="FitJourney"
-            blobColor="#37d2b2"
+            blobColor="#ffffff"
           />
         </Link>
       </div>
@@ -44,14 +44,14 @@ export default function Page() {
           <Card 
             thumbnailUrl="/si-Thumbnail.jpg"
             text="Cybersecurity Assessment for SMEs"
-            blobColor="#c83e42"
+            blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/graphic-designs">
           <Card 
             thumbnailUrl="/gd-Thumbnail.jpg"
             text="Graphic Designs"
-            blobColor="#8040bb"
+            blobColor="#ffffff"
           />
         </Link>
       </div>

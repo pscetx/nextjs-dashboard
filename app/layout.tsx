@@ -31,7 +31,7 @@ export default function RootLayout({
           <div className="flex-grow p-6 md:overflow-y-auto md:py-6 md:pl-0">
             <PageWrapper>{children}</PageWrapper>
             <div className='mt-8 flex justify-between items-center'>
-              <p className='text-xl md:text-2xl text-gray-800 tracking-wide'>
+              <p className='text-xl text-gray-800 tracking-wide'>
                 Let's chat! Reach me at <strong>pscetxvn@gmail.com</strong>
               </p>
               <div className='flex items-center gap-4'>
