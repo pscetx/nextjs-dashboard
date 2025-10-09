@@ -54,7 +54,18 @@ export default function HeroSection() {
           </FadeContent>
         </div>
         
-        <Loader2 />  
+        <div className="w-fit pt-4 grid grid-rows-2 grid-cols-2">
+          
+          <div className="flex items-end justify-end pl-8 md:pl-24">
+            <Loader2 />
+          </div>
+          <div></div>
+          <div></div>
+          <div className="flex items-start justify-end pl-4">
+            <Loader2 />
+          </div>
+          
+        </div>
         <Loader1 />
       </section>
 

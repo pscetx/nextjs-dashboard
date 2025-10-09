@@ -77,7 +77,7 @@ const StyledWrapper = styled.div`
       transform: translateY(0px);
     }
     50% {
-      transform: translateY(3px);
+      transform: translateY(2px);
     }
     100% {
       transform: translateY(0px);
@@ -115,8 +115,7 @@ const StyledWrapper = styled.div`
     background-color: #282828;
     right: -50%;
     border-radius: 3px;
-    animation: roadAnimation 1.4s linear infinite;
-    border-left: 10px solid white;
+    animation: roadAnimation 1.6s linear infinite;
   }
   .road::after {
     content: "";
@@ -126,8 +125,7 @@ const StyledWrapper = styled.div`
     background-color: #282828;
     right: -65%;
     border-radius: 3px;
-    animation: roadAnimation 1.4s linear infinite;
-    border-left: 4px solid white;
+    animation: roadAnimation 1.6s linear infinite;
   }
 
   .lampPost {
