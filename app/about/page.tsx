@@ -11,7 +11,7 @@ export default function Page() {
     <div className="w-full">
       <section className="md:h-[93vh] flex flex-col md:flex-row items-center max-w-4xl mx-auto p-8">
         <FadeContent className="w-5/6 md:w-full rounded-lg shadow-md" blur={true} duration={600} easing="ease-out" initialOpacity={0}>
-          <Image className="rounded-lg shadow-md" src="/portrait.jpg" width={2000} height={50} alt="portrait" priority />
+          <Image className="rounded-lg shadow-md" src="/portrait.jpg" width={500} height={500} alt="portrait" priority />
         </FadeContent>
         <div className="w-full md:w-5/6 md:pl-8">
           <SplitText

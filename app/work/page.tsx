@@ -11,7 +11,7 @@ export default function Page() {
         <Link href="/work/lubumall">
           <Card 
             thumbnailUrl="/lm-Thumbnail.jpg"
-            text="Coming soon"
+            text="Lubumall"
             blobColor="#ffffff"
           />
         </Link>

@@ -9,7 +9,7 @@ export default function Page() {
     <div className="p-6 w-full">
       <button
         onClick={() => router.back()}
-        className="mb-6 text-amber-900 hover:underline text-xl"
+        className="mb-4 text-amber-900 hover:underline text-xl"
       >
         ← back
       </button>
