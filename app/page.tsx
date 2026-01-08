@@ -41,7 +41,7 @@ export default function HeroSection() {
         <div ref={blob2} className="md:block hidden absolute w-80 h-80 bg-amber-300 opacity-20 blur-3xl rounded-full transition-transform duration-500 ease-out" />
         <div ref={blob3} className="md:block hidden absolute w-72 h-72 bg-amber-500 opacity-25 blur-3xl rounded-full transition-transform duration-700 ease-out" />
 
-        <div className='item-center'>
+        <div>
           <TextFlip />
           <FadeContent blur={true} duration={600} easing="ease-out" initialOpacity={0}>
             <div className="text-lg text-gray-800 mt-6 max-w-2xl">

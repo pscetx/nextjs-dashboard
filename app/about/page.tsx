@@ -28,13 +28,13 @@ export default function Page() {
               textAlign="center"
             />
           <p className="text-lg font-semibold text-gray-800">
-            Thanh is working as Lead Visual Designer at Lubu Vietnam, shaping user experiences and designing for early-stage innovation.
+            Thanh is working as Lead Visual Designer, shaping user experiences and designing for early-stage innovation.
           </p>
           <p className="mt-2 text-gray-800">
             Based in Hanoi, they are dedicated to using UI/UX principles to develope creative solutions that can make an impact.
           </p>
           <p className="mt-2 text-gray-800">
-            Besides design, Thanh enjoys playing music, embracing outdoor activities and staying in touch with the community.
+            Besides design, Thanh enjoys making music, embracing outdoor activities and staying in touch with the community.
           </p>
         </div>
       </section>
