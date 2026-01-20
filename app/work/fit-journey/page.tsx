@@ -16,7 +16,7 @@ export default function Page() {
         ← back
       </button>
 
-      <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
+      <div className="flex w-full flex-col space-y-2 text-lg text-gray-600 md:space-y-4">
         <Image
           className="mx-auto w-full rounded-xl"
           src="/fj-HeroImage.jpg"
@@ -25,7 +25,7 @@ export default function Page() {
           alt="Hero"
           priority
         />
-        <div className="my-16 flex flex-wrap gap-x-6 gap-y-2">
+        <div className="flex flex-wrap gap-x-6 gap-y-2">
           <div className="flex items-center gap-2">
             <span
               className={`${montserrat.className} text-xs font-extrabold text-amber-700`}
@@ -60,14 +60,14 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 className="mt-16 text-3xl font-bold">challenge</h1>
+        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
         <p>
           In traditional fitness and workout apps, users often lose motivation
           due to overwhelming options, repetitive routines, and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
 
-        <h1 className="mt-16 text-3xl font-bold">solution</h1>
+        <h1 className="pt-8 text-3xl font-bold">solution</h1>
         <p>
           We designed a gamified, challenge-based system with XP, missions, and
           milestone rewards that make progress immediately visible and encourage
@@ -102,9 +102,9 @@ export default function Page() {
           Motivation and Achievement Tracking
         </p>
 
-        <h1 className="mt-16 text-3xl font-bold">showcase</h1>
+        <h1 className="pt-8 text-3xl font-bold">showcase</h1>
         <Image
-          className="mx-auto rounded-xl"
+          className="mx-auto w-full rounded-xl"
           src="/fj-DesignSystem.jpg"
           width={1000}
           height={50}
@@ -112,7 +112,7 @@ export default function Page() {
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
+          className="mx-auto w-full rounded-xl"
           src="/fj-Showcase1.jpg"
           width={1000}
           height={50}
@@ -120,7 +120,7 @@ export default function Page() {
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
+          className="mx-auto w-full rounded-xl"
           src="/fj-Showcase2.jpg"
           width={1000}
           height={50}
@@ -128,7 +128,7 @@ export default function Page() {
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
+          className="mx-auto w-full rounded-xl"
           src="/fj-Showcase3.jpg"
           width={1000}
           height={50}
@@ -137,7 +137,7 @@ export default function Page() {
         />
         <div>
           <Image
-            className="mx-auto rounded-xl"
+            className="mx-auto w-full rounded-xl"
             src="/fj-Prototype.jpg"
             width={1000}
             height={50}
@@ -147,7 +147,7 @@ export default function Page() {
 
           <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
           <Image
-            className="mx-auto rounded-xl"
+            className="mx-auto w-full rounded-xl"
             src="/fj-ThankYou.jpg"
             width={1000}
             height={50}

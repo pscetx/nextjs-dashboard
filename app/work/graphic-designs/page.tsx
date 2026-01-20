@@ -14,17 +14,12 @@ export default function Page() {
         ← back
       </button>
 
-      <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
-        <Image
-          className="mx-auto mb-16 w-full rounded-xl"
-          src="/gd-Thumbnail.jpg"
-          width={1000}
-          height={50}
-          alt="Thumbnail"
-          priority
-        />
+      <div className="flex w-full flex-col space-y-2 text-lg text-gray-600 md:space-y-4">
+        <p className="mt-8">
+          Various designs created using Adobe Photoshop, Adobe Illustrator, and
+          Adobe InDesign.
+        </p>
 
-        <h1 className="mt-16 text-3xl font-bold">media publications</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-MediaPublications.jpg"
@@ -34,7 +29,6 @@ export default function Page() {
           priority
         />
 
-        <h1 className="mt-16 text-3xl font-bold">infographics</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Infographics.jpg"
@@ -44,7 +38,6 @@ export default function Page() {
           priority
         />
 
-        <h1 className="mt-16 text-3xl font-bold">illustrations</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Illustrations.jpg"
@@ -54,7 +47,6 @@ export default function Page() {
           priority
         />
 
-        <h1 className="mt-16 text-3xl font-bold">magazines</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Magazines.jpg"
@@ -64,7 +56,6 @@ export default function Page() {
           priority
         />
 
-        <h1 className="mt-16 text-3xl font-bold">booklets</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Booklets.jpg"
@@ -74,7 +65,6 @@ export default function Page() {
           priority
         />
 
-        <h1 className="mt-16 text-3xl font-bold">collages</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Collages.jpg"
