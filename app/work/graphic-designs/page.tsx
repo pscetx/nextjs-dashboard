@@ -16,7 +16,7 @@ export default function Page() {
 
       <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
         <Image
-          className="mx-auto w-full rounded-xl"
+          className="mx-auto mb-20 w-full rounded-xl"
           src="/gd-Thumbnail.jpg"
           width={1000}
           height={50}
