@@ -6,56 +6,66 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="w-full">
-      <h1 className="mt-6 mb-4 text-xl md:text-2xl text-gray-800 tracking-wide">UI/UX design</h1>
-      <div className="flex md:flex-row md:flex-wrap flex-col">
+      <h1 className="mb-4 mt-6 text-xl tracking-wide text-gray-800 md:text-2xl">
+        UI/UX designs
+      </h1>
+      <div className="flex flex-col md:flex-row md:flex-wrap">
+        <Link href="/work/ad-placement-strategy">
+          <Card
+            thumbnailUrl="/lm-Thumbnail.jpg"
+            text="Ad Placement Strategy"
+            blobColor="#ffffff"
+          />
+        </Link>
         <Link href="/work/lubumall">
-          <Card 
+          <Card
             thumbnailUrl="/lm-Thumbnail.jpg"
             text="Lubumall"
             blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/museum-fun">
-          <Card 
+          <Card
             thumbnailUrl="/mf-Thumbnail.jpg"
-            text="MuseumFun"
+            text="Museum Fun App"
             blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/vnu-office">
-          <Card 
+          <Card
             thumbnailUrl="/vo-Thumbnail.jpg"
-            text="VNU Office"
+            text="VNU Office App"
             blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/fit-journey">
-          <Card 
+          <Card
             thumbnailUrl="/fj-Thumbnail.jpg"
-            text="FitJourney"
+            text="Fit Journey App"
             blobColor="#ffffff"
           />
         </Link>
       </div>
 
-      <h1 className="mt-10 mb-4 text-xl md:text-2xl text-gray-800 tracking-wide">Other works</h1>
-      <div className="flex md:flex-row md:flex-wrap flex-col">
+      <h1 className="mb-4 mt-10 text-xl tracking-wide text-gray-800 md:text-2xl">
+        Other works
+      </h1>
+      <div className="flex flex-col md:flex-row md:flex-wrap">
         <Link href="/work/sme-iti">
-          <Card 
+          <Card
             thumbnailUrl="/si-Thumbnail.jpg"
             text="Cybersecurity Assessment for SMEs"
             blobColor="#ffffff"
           />
         </Link>
         <Link href="/work/graphic-designs">
-          <Card 
+          <Card
             thumbnailUrl="/gd-Thumbnail.jpg"
             text="Graphic Designs"
             blobColor="#ffffff"
           />
         </Link>
       </div>
-
     </div>
   );
 }

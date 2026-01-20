@@ -1,7 +1,6 @@
-import React from 'react';
 import styled from 'styled-components';
 import { montserrat } from '@/app/ui/fonts';
-import SplitText from "@/app/ui/split-text";
+import SplitText from '@/app/ui/split-text';
 
 const TextFlip = () => {
   return (
@@ -10,8 +9,8 @@ const TextFlip = () => {
         <div className="card-inner">
           <div className="card-front">
             <SplitText
-              text="Hello there!"
-              className={`${montserrat.className} text-4xl md:text-6xl text-amber-800 font-semibold tracking-wider`}
+              text="Hello there"
+              className={`${montserrat.className} text-5xl font-semibold text-amber-800 md:text-6xl`}
               delay={50}
               duration={0.8}
               ease="power3.out"
@@ -24,13 +23,15 @@ const TextFlip = () => {
             />
           </div>
           <div className="card-back">
-            <p className='text-3xl md:text-5xl text-amber-800 italic font-bold tracking-wider'>GENERAL KENOBI!</p>
+            <p className="text-4xl font-bold italic text-amber-800 md:text-5xl">
+              GENERAL KENOBI!
+            </p>
           </div>
         </div>
       </div>
     </StyledWrapper>
   );
-}
+};
 
 const StyledWrapper = styled.div`
   .card {
@@ -65,6 +66,7 @@ const StyledWrapper = styled.div`
 
   .card-back {
     transform: rotateY(180deg);
-  }`;
+  }
+`;
 
 export default TextFlip;

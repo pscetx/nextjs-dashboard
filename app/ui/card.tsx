@@ -9,18 +9,28 @@ interface CardProps {
   blobColor?: string;
 }
 
-const Card: React.FC<CardProps> = ({ thumbnailUrl, text, blobColor = '#ecfcca' }) => {
+const Card: React.FC<CardProps> = ({
+  thumbnailUrl,
+  text,
+  blobColor = '#ecfcca',
+}) => {
   return (
     <StyledWrapper $blobColor={blobColor}>
-      <div className="scale-75 md:scale-90 group flex flex-col items-center transform hover:rotate-1 transition duration-300 ease-in-out">
+      <div className="group flex scale-75 transform flex-col items-center transition duration-300 ease-in-out hover:rotate-1 md:scale-90">
         <div className="card">
-          <Image className="rounded-xl" src={thumbnailUrl} width={400} height={225} alt="Card Image" />
+          <Image
+            className="rounded-xl"
+            src={thumbnailUrl}
+            width={400}
+            height={225}
+            alt="Card Image"
+          />
           <div className="bg" />
           <div className="blob" />
         </div>
-        <div className="flex flex-row group relative items-center justify-center gap-2 p-3 mt-2 tracking-widest text-center text-gray-500 text-lg before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:rounded-full before:opacity-0 before:blur-md before:transition-opacity before:duration-500 group-hover:text-amber-800 group-hover:before:opacity-50">
+        <div className="group relative mt-2 flex flex-row items-center justify-center gap-2 p-3 text-center text-lg tracking-widest text-gray-500 before:absolute before:inset-0 before:m-auto before:h-[50%] before:w-full before:rounded-full before:opacity-0 before:blur-md before:transition-opacity before:duration-500 group-hover:text-amber-800 group-hover:before:opacity-50">
           <span>{text}</span>
-          <ArrowRightIcon className="w-6 h-6 transition-transform duration-300 transform -rotate-45 group-hover:rotate-0" />
+          <ArrowRightIcon className="h-6 w-6 -rotate-45 transform transition-transform duration-300 group-hover:rotate-0" />
         </div>
       </div>
     </StyledWrapper>
@@ -39,7 +49,9 @@ const StyledWrapper = styled.div.attrs<{ $blobColor: string }>(() => ({}))`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    box-shadow: 4px 4px 4px #f5f5f5ff, -1px -1px 2px #f5f5f5ff;
+    box-shadow:
+      4px 4px 8px rgba(0, 0, 0, 0.12),
+      -4px -4px 8px rgba(255, 255, 255, 0.9);
   }
 
   .bg {
@@ -64,7 +76,8 @@ const StyledWrapper = styled.div.attrs<{ $blobColor: string }>(() => ({}))`
     width: 250px;
     height: 200px;
     border-radius: 50%;
-    background-color: ${({ $blobColor }) => $blobColor}; /* Fixed: Correct prop usage */
+    background-color: ${({ $blobColor }) =>
+      $blobColor}; /* Fixed: Correct prop usage */
     opacity: 1;
     filter: blur(12px);
     animation: blob-bounce 5s infinite ease;
