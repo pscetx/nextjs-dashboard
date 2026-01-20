@@ -19,13 +19,12 @@ export default function Page() {
       <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
         <Image
           className="mx-auto w-full rounded-xl"
-          src="/fj-Hero Image.jpg"
+          src="/fj-HeroImage.jpg"
           width={1000}
           height={50}
           alt="Hero"
           priority
         />
-
         <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2">
           <div className="flex items-center gap-2">
             <span
@@ -60,17 +59,13 @@ export default function Page() {
             lead visual designer
           </div>
         </div>
-
         <h1 className="text-3xl font-bold">challenge</h1>
-
         <p>
           In traditional fitness and workout apps, users often lose motivation
           due to overwhelming options, repetitive routines, and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
-
         <h1 className="text-3xl font-bold">solution</h1>
-
         <p className="mt-2">
           We designed a gamified, challenge-based system with XP, missions, and
           milestone rewards that make progress immediately visible and encourage
@@ -84,44 +79,60 @@ export default function Page() {
           exercise with social interaction.
         </p>
 
-        <Image
-          className="mx-auto rounded-xl"
-          src="/fj-Overview.jpg"
-          width={1000}
-          height={50}
-          alt="Overview"
-          priority
-        />
+        <p
+          className={`${montserrat.className} text-md w-fit rounded-xl bg-sky-100 px-4 py-2 font-medium text-gray-800`}
+        >
+          Weekly Quests & Daily Missions
+        </p>
+        <p
+          className={`${montserrat.className} text-md w-fit rounded-xl bg-sky-100 px-4 py-2 font-medium text-gray-800`}
+        >
+          Connect and Compete with Friends
+        </p>
+        <p
+          className={`${montserrat.className} text-md w-fit rounded-xl bg-sky-100 px-4 py-2 font-medium text-gray-800`}
+        >
+          Personalized Avatars & Rewards
+        </p>
+        <p
+          className={`${montserrat.className} text-md w-fit rounded-xl bg-sky-100 px-4 py-2 font-medium text-gray-800`}
+        >
+          Motivation and Achievement Tracking
+        </p>
 
         <h1 className="text-3xl font-bold">showcase</h1>
-
         <Image
           className="mx-auto rounded-xl"
-          src="/fj-Showcase 1.jpg"
+          src="/fj-DesignSystem.jpg"
+          width={1000}
+          height={50}
+          alt="Design System"
+          priority
+        />
+        <Image
+          className="mx-auto rounded-xl"
+          src="/fj-Showcase1.jpg"
           width={1000}
           height={50}
           alt="Showcase #1"
           priority
         />
-
         <Image
           className="mx-auto rounded-xl"
-          src="/fj-Showcase 2.jpg"
+          src="/fj-Showcase2.jpg"
           width={1000}
           height={50}
           alt="Showcase #2"
           priority
         />
-
         <Image
           className="mx-auto rounded-xl"
-          src="/fj-Showcase 3.jpg"
+          src="/fj-Showcase3.jpg"
           width={1000}
           height={50}
           alt="Showcase #3"
           priority
         />
-
         <div>
           <Image
             className="mx-auto rounded-xl"
@@ -135,7 +146,7 @@ export default function Page() {
           <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
           <Image
             className="mx-auto rounded-xl"
-            src="/fj-Thank You.jpg"
+            src="/fj-ThankYou.jpg"
             width={1000}
             height={50}
             alt="Thank You"
