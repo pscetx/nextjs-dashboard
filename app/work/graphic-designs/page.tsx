@@ -6,22 +6,87 @@ import Image from 'next/image';
 export default function Page() {
   const router = useRouter();
   return (
-    <div className="p-6 w-full">
+    <div className="w-full p-6">
       <button
         onClick={() => router.back()}
-        className="mb-4 text-amber-900 hover:underline text-xl"
+        className="mb-4 text-xl text-amber-900 hover:underline"
       >
         ← back
       </button>
-      <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
-        <h1 className='text-4xl md:text-6xl text-gray-800'>Graphic Designs</h1>
-        <p className="mt-4 text-xl text-center max-w-3xl mx-auto italic">
-          Designs and artwork created with Adobe Photoshop, Illustrator, and InDesign.
+
+      <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Thumbnail.jpg"
+          width={1000}
+          height={50}
+          alt="Thumbnail"
+          priority
+        />
+        <p>
+          Designs and artworks created with Adobe Photoshop, Illustrator, and
+          InDesign.
         </p>
 
-        <Image className='rounded-xl' src="/gd-1.png" width={1000} height={50} alt="Designs #1" priority />
-        <Image className='rounded-xl' src="/gd-2.png" width={1000} height={50} alt="Designs #2" priority />
-        <Image className='rounded-xl' src="/gd-3.png" width={1000} height={50} alt="Designs #3" priority />
+        <h1 className="text-3xl font-bold">media publications</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-MediaPublications.jpg"
+          width={1000}
+          height={50}
+          alt="Media Publications"
+          priority
+        />
+
+        <h1 className="text-3xl font-bold">infographics</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Infographics.jpg"
+          width={1000}
+          height={50}
+          alt="Infographics"
+          priority
+        />
+
+        <h1 className="text-3xl font-bold">illustrations</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Illustrations.jpg"
+          width={1000}
+          height={50}
+          alt="Illustrations"
+          priority
+        />
+
+        <h1 className="w-full text-3xl font-bold">magazines</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Magazines.jpg"
+          width={1000}
+          height={50}
+          alt="Magazines"
+          priority
+        />
+
+        <h1 className="text-3xl font-bold">booklets</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Booklets.jpg"
+          width={1000}
+          height={50}
+          alt="Booklets"
+          priority
+        />
+
+        <h1 className="text-3xl font-bold">collages</h1>
+        <Image
+          className="mx-auto w-full rounded-xl"
+          src="/gd-Collages.jpg"
+          width={1000}
+          height={50}
+          alt="Collages"
+          priority
+        />
       </div>
     </div>
   );

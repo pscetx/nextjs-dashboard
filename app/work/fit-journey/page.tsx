@@ -66,12 +66,12 @@ export default function Page() {
           feels slow or intangible, leading to inconsistent usage.
         </p>
         <h1 className="text-3xl font-bold">solution</h1>
-        <p className="mt-2">
+        <p>
           We designed a gamified, challenge-based system with XP, missions, and
           milestone rewards that make progress immediately visible and encourage
           users to return and build lasting habits.
         </p>
-        <p className="mt-2">
+        <p>
           FitJourney redefines the way you approach fitness by turning your
           workout routine into an immersive game where every step forward is a
           step up! Perfect for anyone looking to add a touch of fun and a
