@@ -59,13 +59,15 @@ export default function Page() {
             lead visual designer
           </div>
         </div>
-        <h1 className="text-3xl font-bold">challenge</h1>
+
+        <h1 className="mt-4 text-3xl font-bold">challenge</h1>
         <p>
           In traditional fitness and workout apps, users often lose motivation
           due to overwhelming options, repetitive routines, and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
-        <h1 className="text-3xl font-bold">solution</h1>
+
+        <h1 className="mt-4 text-3xl font-bold">solution</h1>
         <p>
           We designed a gamified, challenge-based system with XP, missions, and
           milestone rewards that make progress immediately visible and encourage
@@ -100,7 +102,7 @@ export default function Page() {
           Motivation and Achievement Tracking
         </p>
 
-        <h1 className="text-3xl font-bold">showcase</h1>
+        <h1 className="mt-4 text-3xl font-bold">showcase</h1>
         <Image
           className="mx-auto rounded-xl"
           src="/fj-DesignSystem.jpg"

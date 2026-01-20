@@ -16,19 +16,15 @@ export default function Page() {
 
       <div className="flex w-full flex-col space-y-4 text-lg text-gray-600 md:space-y-6">
         <Image
-          className="mx-auto mb-12 w-full rounded-xl"
+          className="mx-auto mb-16 w-full rounded-xl"
           src="/gd-Thumbnail.jpg"
           width={1000}
           height={50}
           alt="Thumbnail"
           priority
         />
-        <p>
-          Designs and artworks created with Adobe Photoshop, Illustrator, and
-          InDesign.
-        </p>
 
-        <h1 className="text-3xl font-bold">media publications</h1>
+        <h1 className="mt-4 text-3xl font-bold">media publications</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-MediaPublications.jpg"
@@ -38,7 +34,7 @@ export default function Page() {
           priority
         />
 
-        <h1 className="text-3xl font-bold">infographics</h1>
+        <h1 className="mt-4 text-3xl font-bold">infographics</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Infographics.jpg"
@@ -48,7 +44,7 @@ export default function Page() {
           priority
         />
 
-        <h1 className="text-3xl font-bold">illustrations</h1>
+        <h1 className="mt-4 text-3xl font-bold">illustrations</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Illustrations.jpg"
@@ -58,7 +54,7 @@ export default function Page() {
           priority
         />
 
-        <h1 className="w-full text-3xl font-bold">magazines</h1>
+        <h1 className="mt-4 text-3xl font-bold">magazines</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Magazines.jpg"
@@ -68,7 +64,7 @@ export default function Page() {
           priority
         />
 
-        <h1 className="text-3xl font-bold">booklets</h1>
+        <h1 className="mt-4 text-3xl font-bold">booklets</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Booklets.jpg"
@@ -78,7 +74,7 @@ export default function Page() {
           priority
         />
 
-        <h1 className="text-3xl font-bold">collages</h1>
+        <h1 className="mt-4 text-3xl font-bold">collages</h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/gd-Collages.jpg"
