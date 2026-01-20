@@ -25,7 +25,7 @@ export default function Page() {
           alt="Hero"
           priority
         />
-        <div className="my-8 flex flex-wrap gap-x-6 gap-y-2">
+        <div className="my-16 flex flex-wrap gap-x-6 gap-y-2">
           <div className="flex items-center gap-2">
             <span
               className={`${montserrat.className} text-xs font-extrabold text-amber-700`}
@@ -60,14 +60,14 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 className="mt-8 text-3xl font-bold">challenge</h1>
+        <h1 className="mt-16 text-3xl font-bold">challenge</h1>
         <p>
           In traditional fitness and workout apps, users often lose motivation
           due to overwhelming options, repetitive routines, and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
 
-        <h1 className="mt-8 text-3xl font-bold">solution</h1>
+        <h1 className="mt-16 text-3xl font-bold">solution</h1>
         <p>
           We designed a gamified, challenge-based system with XP, missions, and
           milestone rewards that make progress immediately visible and encourage
@@ -102,7 +102,7 @@ export default function Page() {
           Motivation and Achievement Tracking
         </p>
 
-        <h1 className="mt-8 text-3xl font-bold">showcase</h1>
+        <h1 className="mt-16 text-3xl font-bold">showcase</h1>
         <Image
           className="mx-auto rounded-xl"
           src="/fj-DesignSystem.jpg"
