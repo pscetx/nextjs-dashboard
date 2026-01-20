@@ -56,7 +56,7 @@ export default function HeroSection() {
 
         <div>
           <div
-            className={`${montserrat.className} text-5xl font-semibold text-amber-800 md:text-6xl`}
+            className={`${montserrat.className} text-4xl font-semibold text-amber-800 md:text-6xl`}
           >
             Hello there!
           </div>
