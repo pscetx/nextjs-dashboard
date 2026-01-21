@@ -221,32 +221,28 @@ export default function Page() {
 
         <h1 className="pt-8 text-3xl font-bold">final product</h1>
         <Image
-          className="mx-auto rounded-xl"
-          src="/si-Showcase 1.jpg"
+          src="/si-Showcase1.jpg"
           width={1000}
           height={50}
           alt="Showcase #1"
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
-          src="/si-Showcase 2.jpg"
+          src="/si-Showcase2.jpg"
           width={1000}
           height={50}
           alt="Showcase #2"
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
-          src="/si-Showcase 3.jpg"
+          src="/si-Showcase3.jpg"
           width={1000}
           height={50}
           alt="Showcase #3"
           priority
         />
         <Image
-          className="mx-auto rounded-xl"
-          src="/si-Showcase 4.jpg"
+          src="/si-Showcase4.jpg"
           width={1000}
           height={50}
           alt="Showcase #4"
