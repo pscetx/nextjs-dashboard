@@ -55,24 +55,6 @@ export default function Page() {
           alt="Magazines"
           priority
         />
-
-        <Image
-          className="mx-auto w-full rounded-xl"
-          src="/gd-Booklets.jpg"
-          width={1000}
-          height={50}
-          alt="Booklets"
-          priority
-        />
-
-        <Image
-          className="mx-auto w-full rounded-xl"
-          src="/gd-Collages.jpg"
-          width={1000}
-          height={50}
-          alt="Collages"
-          priority
-        />
       </div>
     </div>
   );
