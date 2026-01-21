@@ -80,7 +80,6 @@ export default function Page() {
           competitive edge to their fitness goals, the app combines effective
           exercise with social interaction.
         </p>
-
         <p
           className={`${montserrat.className} text-md w-fit rounded-xl bg-sky-100 px-4 py-2 font-medium text-gray-800`}
         >
@@ -105,56 +104,21 @@ export default function Page() {
         <h1 className="pt-8 text-3xl font-bold">showcase</h1>
         <Image
           className="mx-auto w-full rounded-xl"
-          src="/fj-DesignSystem.jpg"
+          src="/fj-Flow.jpg"
           width={1000}
           height={50}
-          alt="Design System"
+          alt="Flow"
           priority
         />
         <Image
           className="mx-auto w-full rounded-xl"
-          src="/fj-Showcase1.jpg"
+          src="/fj-Styles.jpg"
           width={1000}
           height={50}
-          alt="Showcase #1"
+          alt="Styles"
           priority
         />
-        <Image
-          className="mx-auto w-full rounded-xl"
-          src="/fj-Showcase2.jpg"
-          width={1000}
-          height={50}
-          alt="Showcase #2"
-          priority
-        />
-        <Image
-          className="mx-auto w-full rounded-xl"
-          src="/fj-Showcase3.jpg"
-          width={1000}
-          height={50}
-          alt="Showcase #3"
-          priority
-        />
-        <div>
-          <Image
-            className="mx-auto w-full rounded-xl"
-            src="/fj-Prototype.jpg"
-            width={1000}
-            height={50}
-            alt="Prototype"
-            priority
-          />
-
-          <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
-          <Image
-            className="mx-auto w-full rounded-xl"
-            src="/fj-ThankYou.jpg"
-            width={1000}
-            height={50}
-            alt="Thank You"
-            priority
-          />
-        </div>
+        <FigmaEmbed figmaUrl="https://www.figma.com/proto/TodPd2jMFIJnpLEDqKQio5/FitJourney-App?node-id=16-45&p=f&t=ATN7GIXRND0ZjSIk-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=16%3A45" />
       </div>
     </div>
   );
