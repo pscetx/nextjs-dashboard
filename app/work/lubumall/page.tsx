@@ -1,23 +1,43 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 
 export default function Page() {
   const router = useRouter();
   return (
-    <div className="p-6 w-full">
+    <div className="w-full p-6">
       <button
         onClick={() => router.back()}
-        className="mb-4 text-amber-900 hover:underline text-xl"
+        className="mb-4 text-xl text-amber-900 hover:underline"
       >
         ← back
       </button>
-      <div className='flex flex-col items-center justify-center text-gray-600 text-lg space-y-6 md:space-y-10'>
-        <p className="text-xl text-center max-w-3xl mx-auto italic">
-          <span className='italic'>*Under NDA*</span> I worked as the Lead UX Designer, responsible for competitor research and designing the app’s UIs. Please contact me to discuss our process and outcomes.
+      <div className="flex w-full flex-col space-y-2 text-lg text-gray-600 md:space-y-4">
+        <p>
+          (Under NDA) I worked as the lead visual & interaction designer at
+          Lubumall for 6 months, contributed to an ecosystem of interconnected
+          web and mobile applications. I focused on shaping cohesive, scalable
+          experiences while balancing user needs, business goals, and technical
+          constraints.
         </p>
-        <Image className='rounded-xl' src="/lm-Thumbnail.jpg" width={1000} height={50} alt="Thumbnail" priority />
+        <p>Key duties included:</p>
+        <ul className="list-disc pl-6">
+          <li>Researching user needs and market trends,</li>
+          <li>
+            Designing experiences from early concepts to high-fidelity
+            prototypes,
+          </li>
+          <li>Ensuring consistency and clarity across products,</li>
+          <li>
+            Collaborating closely with product managers, developers, and
+            designers throughout the product lifecycle,
+          </li>
+          <li>
+            Building and maintaining scalable design systems to support rapid
+            development and long-term product growth.
+          </li>
+        </ul>
+        <p>Please contact me for further details regarding this project.</p>
       </div>
     </div>
   );
