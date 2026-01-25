@@ -68,7 +68,7 @@ export default function Carousel({ images, imageClassName }: Props) {
       <NavButton side="left" onClick={prev} />
       <NavButton side="right" onClick={next} />
 
-      <div className="mt-3 flex justify-center gap-2">
+      <div className="mt-4 flex justify-center gap-2">
         {images.map((_, i) => (
           <button
             key={i}

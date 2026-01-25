@@ -208,7 +208,7 @@ export default function Page() {
 
         <Image
           className="mx-auto w-full rounded-xl"
-          src="/mf-Design System.jpg"
+          src="/mf-DesignSystem.jpg"
           width={1000}
           height={50}
           alt="Design System"
