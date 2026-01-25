@@ -37,6 +37,13 @@ export default function Carousel({ images, imageClassName }: Props) {
     return () => window.removeEventListener('keydown', handleKey);
   }, []);
 
+  const navButtonClass =
+    'absolute top-1/2 -translate-y-1/2 rounded-md ' +
+    'bg-amber-100 px-3 py-1 font-bold text-amber-900 ' +
+    'shadow-[4px_4px_0_#7c2d12] ' +
+    'transition-transform active:translate-y-[calc(-50%+2px)] ' +
+    'active:shadow-[2px_2px_0_#7c2d12]';
+
   return (
     <div className="relative">
       <AnimatePresence mode="wait">
@@ -65,10 +72,15 @@ export default function Carousel({ images, imageClassName }: Props) {
         </motion.div>
       </AnimatePresence>
 
-      <NavButton side="left" onClick={prev} />
-      <NavButton side="right" onClick={next} />
+      <button onClick={prev} className={`${navButtonClass} left-2`}>
+        ‹
+      </button>
 
-      <div className="mt-4 flex justify-center gap-2">
+      <button onClick={next} className={`${navButtonClass} right-2`}>
+        ›
+      </button>
+
+      <div className="flex justify-center gap-2">
         {images.map((_, i) => (
           <button
             key={i}
@@ -76,7 +88,7 @@ export default function Carousel({ images, imageClassName }: Props) {
               setDirection(i > currentIndex ? 1 : -1);
               setCurrentIndex(i);
             }}
-            className={`mb-4 h-2.5 w-2.5 rounded-full transition ${
+            className={`mt-4 h-2.5 w-2.5 rounded-full transition ${
               i === currentIndex
                 ? 'scale-110 bg-amber-800'
                 : 'bg-gray-300 hover:bg-gray-400'
@@ -85,26 +97,5 @@ export default function Carousel({ images, imageClassName }: Props) {
         ))}
       </div>
     </div>
-  );
-}
-
-function NavButton({
-  side,
-  onClick,
-}: {
-  side: 'left' | 'right';
-  onClick: () => void;
-}) {
-  return (
-    <button
-      onClick={onClick}
-      className={`absolute ${side}-0 top-1/2 -translate-y-1/2
-        rounded-md bg-amber-50 px-3 py-1 font-bold
-        shadow-[3px_3px_0_#7c2d12]
-        transition active:translate-y-[-50%]
-        active:shadow-[1px_1px_0_#7c2d12]`}
-    >
-      {side === 'left' ? '‹' : '›'}
-    </button>
   );
 }
