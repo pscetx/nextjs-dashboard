@@ -99,22 +99,22 @@ export default function Page() {
           Designing a museum mobile app means weaving a digital layer into the
           physical environment, presenting a distinct set of design challenges:
         </p>
-        <div className="border-l-4 border-red-300 bg-gray-50 p-2">
+        <div className="border-l-4 border-red-500 bg-gray-50 p-2">
           Museum visitors often move between exhibits without clear context,
-          missing connections or key displays.
+          missing connections or key displays,
         </div>
-        <div className="border-l-4 border-red-300 bg-gray-50 p-2">
+        <div className="border-l-4 border-red-500 bg-gray-50 p-2">
           Traditional museum visits can feel passive, especially for younger
-          audiences.
+          audiences,
         </div>
-        <div className="border-l-4 border-red-300 bg-gray-50 p-2">
+        <div className="border-l-4 border-red-500 bg-gray-50 p-2">
           Museums present large amounts of information, particularly as dense
           text, that can feel overwhelming.
         </div>
 
         <h1 className="pt-8 text-3xl font-bold">solution</h1>
         <p>
-          The goal was to shift the museum experience from a passive, linear
+          The idea was to shift the museum experience from a passive, linear
           walkthrough to an interactive adventure using AR technology and
           gamified elements.
         </p>
@@ -130,7 +130,6 @@ export default function Page() {
           <li>How can we layer learning with fun?</li>
           <li>How might we guide kids without overwhelming them?</li>
         </ul>
-
         <p>
           We conducted interviews with parents and children aged 6 to 12, which
           revealed that kids are naturally drawn to movement, surprise and
@@ -138,15 +137,12 @@ export default function Page() {
           hands-on while providing clear feedback. We translated these insights
           into user personas:
         </p>
-
         <Carousel images={images} imageClassName="w-5/6" />
-
         <p>
           The next step was creating storyboards to visually explore the user's
           journey. This process helped us highlight key interaction moments and
           refine the experience from the user's point of view.
         </p>
-
         <Carousel images={images2} imageClassName="w-5/6" />
 
         <h1 className="pt-8 text-3xl font-bold">starting the design</h1>
@@ -160,14 +156,11 @@ export default function Page() {
           then translated into low-fidelity wireframes, followed by a low
           fidelity prototype for usability testing.
         </p>
-
         <Carousel images={images3} imageClassName="w-5/6" />
-
         <p className="mt-4">
           We conducted usability testing with 5 participants age 8 to 12. The
           goal was to uncover:
         </p>
-
         <ul className="mt-2 list-disc pl-6 italic">
           <li>
             How long does it take for an user to scan a QR code and complete an
@@ -178,17 +171,16 @@ export default function Page() {
             exhibits with the app, versus exploring exhibits without the app?
           </li>
         </ul>
-
         <div className="border-l-4 border-amber-300 bg-gray-50 p-2">
           It was observed that <strong>4 / 5</strong> participants were unsure
           what to do after scanning a QR code. This means that the post-scan
-          experience was not immediately intuitive for many users.
+          experience was not immediately intuitive for many users,
         </div>
         <div className="border-l-4 border-amber-300 bg-gray-50 p-2">
           It was observed that <strong>2 / 5</strong> participants found the
           quiz questions exciting and wanted to complete more than required.
           This means that the quiz challenges were engaging for some users, but
-          not yet for everyone.
+          not yet for everyone,
         </div>
         <div className="border-l-4 border-amber-300 bg-gray-50 p-2">
           It was observed that <strong>5 / 5</strong> participants accidentally
@@ -205,7 +197,6 @@ export default function Page() {
           evolve with the project, ensuring consistency across screens while
           allowing for rapid iteration.
         </p>
-
         <Image
           className="mx-auto w-full rounded-xl"
           src="/mf-DesignSystem.jpg"
@@ -214,13 +205,11 @@ export default function Page() {
           alt="Design System"
           priority
         />
-
         <p>
           Next step was continuously refining the design based on usability
           testing insights to address key pain points and enhance the overall
           user experience.
         </p>
-
         <Image
           className="mx-auto w-full rounded-xl"
           src="/mf-Flow.jpg"
@@ -229,7 +218,6 @@ export default function Page() {
           alt="Flow"
           priority
         />
-
         <p className="mt-8">
           And finally, a high-fidelity prototype was created to test the design!
         </p>
@@ -244,26 +232,24 @@ export default function Page() {
         <ul className="list-disc pl-6 italic">
           <li>
             Introducing more diverse and dynamic challenges to keep users
-            engaged throughout the visit.
+            engaged throughout the visit,
           </li>
           <li>
             Creating personalized and interactive features to help users
             navigate the museum and feel more immersed in their journey.
           </li>
         </ul>
-
         <p>
           This project was a valuable learning experience for me, both
           creatively and professionally. I deepened my understanding of:
         </p>
-
         <div className="border-l-4 border-emerald-300 bg-emerald-50 p-2">
           From empathizing, defining and ideation to prototyping and testing, I
-          experienced the full cycle of product design in a real-world context.
+          experienced the full cycle of product design in a real-world context,
         </div>
         <div className="border-l-4 border-emerald-300 bg-emerald-50 p-2">
           I learned how to prioritize user needs, especially when designing for
-          children by putting empathy at the core of every decision.
+          children by putting empathy at the core of every decision,
         </div>
         <div className="border-l-4 border-emerald-300 bg-emerald-50 p-2">
           I became much more confident using Figma to create wireframes,

@@ -16,7 +16,7 @@ export default function Page() {
 
       <div className="flex w-full flex-col space-y-2 text-lg text-gray-600 md:space-y-4">
         <p className="mt-8">
-          Various designs created using Adobe Photoshop, Adobe Illustrator, and
+          Various designs created using Adobe Photoshop, Adobe Illustrator and
           Adobe InDesign.
         </p>
 

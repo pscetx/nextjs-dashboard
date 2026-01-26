@@ -62,8 +62,8 @@ export default function Page() {
         <p>
           This project rethinks how small and medium enterprises understand and
           improve their cybersecurity. We created an application that makes
-          assessment simple, practical, and action-oriented, built especially
-          for organizations with limited resources but growing digital risks.
+          assessment simple, practical and action-oriented, built especially for
+          organizations with limited resources but growing digital risks.
           Cybersecurity tools are often too complex, too expensive, or too
           abstract for the realities of SMEs. We saw a chance to cut through
           that noise with a focused, user-friendly solution that gives clear
@@ -72,7 +72,7 @@ export default function Page() {
 
         <h1 className="pt-8 text-3xl font-bold">challenge</h1>
         <p>
-          According to Viettel Cyber Security’s report on information security
+          According to Viettel Cyber Security's report on information security
           risks in the first half of 2024, Vietnam faced a surge in serious
           cyber incidents across multiple sectors. Over 3 terabytes of data were
           encrypted in cyberattacks, causing damages of over $10 million. There
@@ -85,19 +85,19 @@ export default function Page() {
           that disrupted operations and damaged infrastructure.
         </p>
         <p>
-          Most SMEs know cybersecurity is important, but they don’t always know
+          Most SMEs know cybersecurity is important, but they don't always know
           where to start. We encountered several key reasons why this is the
           case:
         </p>
         <ul className="list-disc pl-6">
-          <li>Many teams don’t have in-house security professionals.</li>
+          <li>Many teams don't have in-house security professionals,</li>
           <li>
-            SMEs can’t afford to invest in expensive solutions or spend weeks
-            learning complex systems.
+            SMEs can't afford to invest in expensive solutions or spend weeks
+            learning complex systems,
           </li>
           <li>
             Without a clear picture of their vulnerabilities, businesses often
-            underestimate threats or delay action.
+            underestimate threats or delay action,
           </li>
           <li>
             Even when risks are clear, shifting internal habits or processes can
@@ -117,10 +117,10 @@ export default function Page() {
           </a>
         </h1>
         <p>
-          Cybersecurity Assessment for SMEs is a responsive wep app that helps
-          small businesses assess their cybersecurity posture, identify risks.
-          By guiding users through a clear, step-by-step evaluation, the app
-          translates technical concerns into understandable insights.
+          Cybersecurity Assessment for SMEs is a responsive web app that helps
+          small businesses assess their cybersecurity posture and identify
+          risks. By guiding users through a clear, step-by-step evaluation, the
+          app translates technical concerns into understandable insights.
         </p>
 
         <h1 className="pt-8 text-3xl font-bold">crafting the questionnaire</h1>
@@ -176,7 +176,7 @@ export default function Page() {
           The target users are business leaders, especially CEOs, who may not
           manage IT systems directly but make critical decisions on
           cybersecurity strategy, budget, and policy. This focus is crucial, as
-          their decisions directly impact the organization’s security readiness.
+          their decisions directly impact the organization's security readiness.
           The tool is especially suitable for small and medium enterprises
           (SMEs), which often lack dedicated cybersecurity resources and are
           more vulnerable to attacks.
@@ -221,29 +221,33 @@ export default function Page() {
 
         <h1 className="pt-8 text-3xl font-bold">final product</h1>
         <Image
+          className="mx-auto w-full"
           src="/si-Showcase1.jpg"
-          width={1000}
+          width={900}
           height={50}
           alt="Showcase #1"
           priority
         />
         <Image
+          className="mx-auto w-full"
           src="/si-Showcase2.jpg"
-          width={1000}
+          width={900}
           height={50}
           alt="Showcase #2"
           priority
         />
         <Image
+          className="mx-auto w-full"
           src="/si-Showcase3.jpg"
-          width={1000}
+          width={900}
           height={50}
           alt="Showcase #3"
           priority
         />
         <Image
+          className="mx-auto w-full"
           src="/si-Showcase4.jpg"
-          width={1000}
+          width={900}
           height={50}
           alt="Showcase #4"
           priority
@@ -253,11 +257,11 @@ export default function Page() {
         <p>
           Leading a team of four from the initial concept stage to product
           launch was a transformative experience that reshaped my understanding
-          of leadership. I discovered that true leadership isn’t about simply
+          of leadership. I discovered that true leadership isn't about simply
           assigning tasks or overseeing progress but fostering clarity, building
           trust, and sustaining momentum even when challenges arise. Throughout
           the process, I learned how to recognize and leverage the unique
-          strengths of each team member, align everyone around a shared vision,
+          strengths of each team member, align everyone around a shared vision
           and maintain open, focused communication to ensure we stayed on track.
         </p>
         <p>
@@ -265,10 +269,11 @@ export default function Page() {
           capabilities, particularly in full-stack development and UI design. I
           focused heavily on creating an intuitive and seamless user experience,
           with an emphasis on accessibility for non-technical users. I applied
-          responsive design principles throughout the interface to ensure the
-          product worked smoothly across devices of all sizes. Balancing
-          technical execution with team dynamics gave me a deeper appreciation
-          for both the human and technical sides of product development.
+          responsive design principles throughout the interface to make sure the
+          product worked smoothly across devices of all sizes. Last but not
+          least, balancing technical execution with team dynamics gave me a
+          deeper appreciation for both the human and technical sides of product
+          development.
         </p>
       </div>
     </div>

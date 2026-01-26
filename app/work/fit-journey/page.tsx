@@ -63,13 +63,13 @@ export default function Page() {
         <h1 className="pt-8 text-3xl font-bold">challenge</h1>
         <p>
           In traditional fitness and workout apps, users often lose motivation
-          due to overwhelming options, repetitive routines, and progress that
+          due to overwhelming options, repetitive routines and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
 
         <h1 className="pt-8 text-3xl font-bold">solution</h1>
         <p>
-          We designed a gamified, challenge-based system with XP, missions, and
+          We designed a gamified, challenge-based system with XP, missions and
           milestone rewards that make progress immediately visible and encourage
           users to return and build lasting habits.
         </p>
@@ -98,7 +98,7 @@ export default function Page() {
         <p
           className={`${montserrat.className} w-fit rounded-xl bg-sky-100 px-4 py-2 text-sm font-medium text-gray-800`}
         >
-          Motivation and Achievement Tracking
+          Motivation & Achievement Tracking
         </p>
 
         <h1 className="pt-8 text-3xl font-bold">showcase</h1>

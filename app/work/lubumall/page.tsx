@@ -17,7 +17,7 @@ export default function Page() {
           (Under NDA) I worked as the lead visual & interaction designer at
           Lubumall for 6 months, contributed to an ecosystem of interconnected
           web and mobile applications. I focused on shaping cohesive, scalable
-          experiences while balancing user needs, business goals, and technical
+          experiences while balancing user needs, business goals and technical
           constraints.
         </p>
         <p>Key duties included:</p>
@@ -29,7 +29,7 @@ export default function Page() {
           </li>
           <li>Ensuring consistency and clarity across products,</li>
           <li>
-            Collaborating closely with product managers, developers, and
+            Collaborating closely with product managers, developers and
             designers throughout the product lifecycle,
           </li>
           <li>

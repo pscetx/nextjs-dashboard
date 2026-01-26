@@ -62,16 +62,16 @@ export default function Page() {
 
         <h1 className="pt-8 text-3xl font-bold">challenge</h1>
         <p>
-          Design an internal office application that streamlines project
-          management, fosters transparent communication, and supports diverse
-          workflows across departments at VNU, all while remaining intuitive for
-          users with varying levels of tech experience.
+          Design an internal office app that streamlines project management,
+          ensures transparent communication and supports diverse workflows
+          across departments at VNU, all while remaining intuitive for users
+          with varying levels of tech experience.
         </p>
 
         <h1 className="pt-8 text-3xl font-bold">solution</h1>
         <p>
           VNU Office is a centralized platform that enables staff to manage
-          tasks, share documents, and communicate efficiently. By simplifying
+          tasks, share documents and communicate efficiently. By simplifying
           collaboration and aligning teams around shared goals, the app
           strengthens day-to-day operations and improves overall coordination
           within the university.
@@ -95,10 +95,9 @@ export default function Page() {
           especially when the users range from tech-savvy staff to those less
           comfortable with digital tools. Collaborating with our business
           analyst helped me translate complex requirements into something visual
-          and intuitive, a process I really enjoyed. Although the project was
+          and intuitive - a process I really enjoyed. Although the project was
           eventually shelved, it reminded me how powerful early design and
-          prototyping can be in shaping direction and aligning a team around
-          shared goals.
+          prototyping can be in shaping direction and aligning goals.
         </p>
       </div>
     </div>
