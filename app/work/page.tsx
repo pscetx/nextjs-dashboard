@@ -12,7 +12,7 @@ export default function Page() {
       <div className="flex flex-col md:flex-row md:flex-wrap">
         <Link href="/work/ad-placement-strategy">
           <Card
-            thumbnailUrl="/lm-Thumbnail.jpg"
+            thumbnailUrl="/ap-Thumbnail.jpg"
             text="Ad Placement Strategy"
             blobColor="#ffffff"
           />

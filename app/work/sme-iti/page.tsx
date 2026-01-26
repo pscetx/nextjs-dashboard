@@ -219,7 +219,7 @@ export default function Page() {
           </li>
         </ul>
 
-        <h1 className="pt-8 text-3xl font-bold">final product</h1>
+        <h1 className="pt-8 text-3xl font-bold">showcase</h1>
         <Image
           className="mx-auto w-full"
           src="/si-Showcase1.jpg"
