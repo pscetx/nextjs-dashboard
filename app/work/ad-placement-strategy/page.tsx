@@ -61,8 +61,8 @@ export default function Page() {
         <h1 className="pt-8 text-3xl font-bold">solution</h1>
         <p>
           Revenue optimization was intentionally focused on the first-open
-          experience. Language selection and interest surveys were split across
-          several steps to create additional, natural surfaces for ad exposure.
+          experience. Language selection and interest survey were split into
+          several identical steps to create additional surfaces for ad exposure.
           To further support ad interaction, the 'Next' buttons were
           repositioned across screens to avoid rapid skipping. Together, these
           layout and flow decisions increased ad visibility and engagement
@@ -94,10 +94,10 @@ export default function Page() {
         />
         <p>
           One effective way to increase LTV is by improving accessibility
-          through UX decisions such as introducing Dark Mode. Beyond usability
-          benefits, it signals product maturity and user-centric design,
-          increasing perceived value and trust, which supports retention and
-          long-term monetization without relying on additional ad exposure.
+          through features such as Dark Mode. Beyond usability benefits, it
+          signals product maturity and user-centric design, increasing perceived
+          value and trust, which supports retention and long-term monetization
+          without relying on additional ad exposure.
         </p>
         <Image
           className="mx-auto w-full"
@@ -111,8 +111,8 @@ export default function Page() {
         <h1 className="pt-8 text-3xl font-bold">takeaways</h1>
         <p>
           Focusing monetization on the onboarding experience delivered strong
-          performance without harming retention. CTR on onboarding placements
-          <strong> consistently reached ~30%</strong>, while screen-level drop
+          performance without harming retention too much. CTR on onboarding
+          placements <strong> consistently reached ~30%</strong>, while drop
           rates remained <strong>below 4%</strong>, confirming that early and
           well-timed monetization can drive revenue without disrupting user flow
           or increasing churn.
