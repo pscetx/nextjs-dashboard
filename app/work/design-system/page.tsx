@@ -31,13 +31,9 @@ export default function Page() {
         <p>
           We adopted a scalable 3-tier design token system - Brand, Alias and
           Mapped - to decouple brand identity from UI implementation and enable
-          rapid theming across products and platforms.
-        </p>
-        <p>
-          This 3-tier design token system separates raw brand values, semantic
-          intent, and UI usage to keep the interface flexible as the product
-          scales. By decoupling identity from implementation, the system enables
-          theming, rebranding and accessibility updates without refactoring UI.
+          rapid theming across products and platforms. This system separates raw
+          brand values, semantic intent, and UI usage to keep the interface
+          flexible as the product scales.
         </p>
         <ul className="list-disc pl-6">
           <li>
@@ -46,12 +42,11 @@ export default function Page() {
           </li>
           <li>
             Alias tokens translate brand values into meaningful categories such
-            as primary, error and warning, expressing design intent instead of
-            visual specifics,
+            as primary, error and warning, expressing design intent,
           </li>
           <li>
-            Lastly mapped tokens connect alias tokens to concrete components or
-            platforms, isolating implementation details.
+            Lastly mapped tokens connect alias tokens to concrete UI roles like
+            text, icon, surface and border.
           </li>
         </ul>
         <Image
@@ -72,7 +67,7 @@ export default function Page() {
           interaction patterns across the product. Each component supports
           multiple states (default, hover, active, disabled, error) and semantic
           variants (primary, success, warning, error), all driven by the design
-          token system. This ensures visual consistency, accessibility, and easy
+          token system. This ensures visual consistency, accessibility and easy
           theming while allowing components to scale across different contexts
           without duplication.
         </p>
