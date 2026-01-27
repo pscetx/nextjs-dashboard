@@ -22,10 +22,10 @@ export default function Page() {
 
         <Image
           className="mx-auto w-full rounded-xl"
-          src="/gd-MediaPublications.jpg"
+          src="/gd-PromoMedias.jpg"
           width={1000}
           height={50}
-          alt="Media Publications"
+          alt="Promotional Medias"
           priority
         />
 

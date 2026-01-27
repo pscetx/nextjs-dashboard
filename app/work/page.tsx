@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div className="w-full">
       <h1 className="mb-4 mt-6 text-xl tracking-wide text-gray-800 md:text-2xl">
-        UI/UX designs
+        UI/UX design
       </h1>
       <div className="flex flex-col md:flex-row md:flex-wrap">
         <Link href="/work/design-system">

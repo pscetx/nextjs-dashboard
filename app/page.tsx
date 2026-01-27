@@ -54,29 +54,19 @@ export default function HeroSection() {
           className="absolute hidden h-72 w-72 rounded-full bg-amber-500 opacity-25 blur-3xl transition-transform duration-700 ease-out md:block"
         />
 
-        <div>
-          <div
-            className={`${montserrat.className} text-4xl font-semibold text-amber-800 md:text-6xl`}
-          >
-            Hello there!
-          </div>
-          {/* <TextFlip />
+        <div className="flex justify-center pt-2">
           <FadeContent
             blur={true}
             duration={600}
             easing="ease-out"
             initialOpacity={0}
           >
-            <div className="mt-6 max-w-2xl text-lg text-gray-800">
-              I'm Thanh, a designer with a passion for
-              <span className="font-semibold"> User Experience</span>. I love
-              coming up with clean, human-centered designs that make web and
-              mobile applications both intuitive and visually engaging.
+            <div
+              className={`${montserrat.className} text-5xl font-semibold text-amber-800 md:text-7xl`}
+            >
+              Hello there!
             </div>
-            <p className="mt-6 max-w-2xl text-lg text-gray-800">
-              Welcome to my portfolio!
-            </p>
-          </FadeContent> */}
+          </FadeContent>
         </div>
 
         <div className="grid w-fit grid-cols-2 grid-rows-2 pt-4">
