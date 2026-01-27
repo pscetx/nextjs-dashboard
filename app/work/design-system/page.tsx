@@ -20,33 +20,35 @@ export default function Page() {
           challenge
         </h1>
         <p>
-          As the product ecosystem scaled, we realized visual changes like
-          theming, accessibility updates and rebranding became slow and
-          error-prone due to tightly coupled design values.
+          As product development scaled, we realized that visual changes like
+          theming, accessibility updates or rebranding became slow and easy to
+          break because design values were baked directly into the system.
         </p>
 
         <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
           solution
         </h1>
         <p>
-          We adopted a scalable 3-tier design token system - Brand, Alias and
-          Mapped - to decouple brand identity from UI implementation and enable
+          We adopted the 3-tier design token system - Brand, Alias and Mapped -
+          to decouple brand identity from UI implementation and also enable
           rapid theming across products and platforms. This system separates raw
           brand values, semantic intent, and UI usage to keep the interface
           flexible as the product scales.
         </p>
         <ul className="list-disc pl-6">
           <li>
-            Brand tokens define foundational values like colors, typography and
-            spacing as a stable source of truth, independent of UI or platform.
+            Brand tokens define foundational values including
+            <span className="italic"> colors, typography and spacing</span> as
+            the stable source of truth,
           </li>
           <li>
-            Alias tokens translate brand values into meaningful categories such
-            as primary, error and warning, expressing design intent,
+            Alias tokens translate brand values into meaningful semantic
+            categories such as
+            <span className="italic"> primary, error and success</span>,
           </li>
           <li>
             Lastly mapped tokens connect alias tokens to concrete UI roles like
-            text, icon, surface and border.
+            <span className="italic"> text, icon, surface and border</span>.
           </li>
         </ul>
         <Image
@@ -62,14 +64,13 @@ export default function Page() {
           showcase
         </h1>
         <p>
-          We built a set of UI components, including buttons, tags, inputs,
-          tabs, menus, avatars and toggles, designed to cover the most common
-          interaction patterns across the product. Each component supports
+          We built a core set of UI components, which cover the most common
+          interaction patterns across typical products. Each component supports
           multiple states (default, hover, active, disabled, error) and semantic
           variants (primary, success, warning, error), all driven by the design
-          token system. This ensures visual consistency, accessibility and easy
-          theming while allowing components to scale across different contexts
-          without duplication.
+          token system. This ensures visual consistency and accessibility while
+          allowing components to scale across different contexts without
+          duplication.
         </p>
         <Image
           className="mx-auto w-full"
@@ -80,12 +81,10 @@ export default function Page() {
           priority
         />
         <p>
-          Using the design system, we created a set of real-world screens across
-          mobile and web. Each screen is composed entirely of shared components
-          and semantic tokens, allowing the same system to adapt to different
-          layouts, platforms, and product goals. This demonstrates how the
-          system scales from simple flows to complex, content-heavy interfaces
-          while maintaining consistency and flexibility.
+          With the new system, we created several test mobile and web screens
+          using shared components and tokens, which allowed the design to stay
+          consistent while remain flexible across different layouts and
+          platforms.
         </p>
         <Image
           className="mx-auto w-full"
@@ -104,7 +103,7 @@ export default function Page() {
           change. By constraining decisions through tokens and foundational
           components, the system reduced inconsistency, improved speed and
           proved flexible enough to support multiple platforms, screen types and
-          future requirements like accessibility and dark mode.
+          future requirements like accessibility or dark mode.
         </p>
       </div>
     </div>
