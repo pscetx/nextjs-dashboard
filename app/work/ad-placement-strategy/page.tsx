@@ -63,10 +63,11 @@ export default function Page() {
           Revenue optimization was intentionally focused on the first-open
           experience. Language selection and interest survey were split into
           several identical steps to create additional surfaces for ad exposure.
-          To further support ad interaction, the 'Next' buttons were
-          repositioned across screens to avoid rapid skipping. Together, these
-          layout and flow decisions increased ad visibility and engagement
-          through spatial hierarchy and progression control.
+          To further support ad interaction, the
+          <span className="italic"> Next</span> buttons were repositioned across
+          screens to avoid rapid skipping. Together, these layout and flow
+          decisions increased ad visibility and engagement through spatial
+          hierarchy and progression control.
         </p>
         <Image
           className="mx-auto w-full"
