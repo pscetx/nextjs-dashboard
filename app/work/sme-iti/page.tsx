@@ -70,7 +70,9 @@ export default function Page() {
           insights and helps teams take the next step with confidence.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          challenge
+        </h1>
         <p>
           According to Viettel Cyber Security's report on information security
           risks in the first half of 2024, Vietnam faced a surge in serious
@@ -105,7 +107,7 @@ export default function Page() {
           </li>
         </ul>
 
-        <h1 className="pt-8 text-3xl font-bold">
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
           solution:{' '}
           <a
             href="https://sme.iti.edu.vn"
@@ -123,7 +125,9 @@ export default function Page() {
           app translates technical concerns into understandable insights.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">crafting the questionnaire</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          crafting the questionnaire
+        </h1>
         <p>
           The questionnaire was developed based on a thorough integration and
           analysis of three foundational cybersecurity frameworks: the{' '}
@@ -219,7 +223,9 @@ export default function Page() {
           </li>
         </ul>
 
-        <h1 className="pt-8 text-3xl font-bold">showcase</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          showcase
+        </h1>
         <Image
           className="mx-auto w-full"
           src="/si-Showcase1.jpg"
@@ -253,7 +259,9 @@ export default function Page() {
           priority
         />
 
-        <h1 className="pt-8 text-3xl font-bold">takeaways</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          takeaways
+        </h1>
         <p>
           Leading a team of four from the initial concept stage to product
           launch was a transformative experience that reshaped my understanding

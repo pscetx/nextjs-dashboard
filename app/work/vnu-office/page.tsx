@@ -60,7 +60,9 @@ export default function Page() {
           that time.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          challenge
+        </h1>
         <p>
           Design an internal office app that streamlines project management,
           ensures transparent communication and supports diverse workflows
@@ -68,7 +70,9 @@ export default function Page() {
           with varying levels of tech experience.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">solution</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          solution
+        </h1>
         <p>
           VNU Office is a centralized platform that enables staff to manage
           tasks, share documents and communicate efficiently. By simplifying
@@ -77,7 +81,9 @@ export default function Page() {
           within the university.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">showcase</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          showcase
+        </h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/vo-Flow.jpg"
@@ -88,7 +94,9 @@ export default function Page() {
         />
         <FigmaEmbed figmaUrl="https://www.figma.com/proto/SHyeWN4Bg3ntK1QuvSkZl7/VNU-Office-App?page-id=105%3A2399&node-id=105-2400&p=f&viewport=-894%2C115%2C0.25&t=SsdflYq8dbt1vB8X-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=105%3A2400" />
 
-        <h1 className="pt-8 text-3xl font-bold">takeaways</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          takeaways
+        </h1>
         <p>
           Working on the app, even briefly, was a valuable experience for me. It
           taught me how important it is to design with clarity and inclusivity,

@@ -51,14 +51,18 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          challenge
+        </h1>
         <p>
           Increasing ad revenue without disrupting the creative flow proved
           difficult, as intrusive placements boosted short-term CTR but caused
           higher drop rates and weakened long-term LTV.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">solution</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          solution
+        </h1>
         <p>
           Revenue optimization was intentionally focused on the first-open
           experience. Language selection and interest survey were split into
@@ -109,7 +113,9 @@ export default function Page() {
           priority
         />
 
-        <h1 className="pt-8 text-3xl font-bold">takeaways</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          takeaways
+        </h1>
         <p>
           Focusing monetization on the onboarding experience delivered strong
           performance without harming retention too much. CTR on onboarding

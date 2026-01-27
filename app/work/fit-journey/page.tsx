@@ -60,14 +60,18 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          challenge
+        </h1>
         <p>
           In traditional fitness and workout apps, users often lose motivation
           due to overwhelming options, repetitive routines and progress that
           feels slow or intangible, leading to inconsistent usage.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">solution</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          solution
+        </h1>
         <p>
           We designed a gamified, challenge-based system with XP, missions and
           milestone rewards that make progress immediately visible and encourage
@@ -101,7 +105,9 @@ export default function Page() {
           Motivation & Achievement Tracking
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">showcase</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          showcase
+        </h1>
         <Image
           className="mx-auto w-full rounded-xl"
           src="/fj-Flow.jpg"

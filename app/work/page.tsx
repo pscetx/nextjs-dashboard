@@ -10,6 +10,13 @@ export default function Page() {
         UI/UX designs
       </h1>
       <div className="flex flex-col md:flex-row md:flex-wrap">
+        <Link href="/work/design-system">
+          <Card
+            thumbnailUrl="/ds-Thumbnail.jpg"
+            text="Building a Design System"
+            blobColor="#ffffff"
+          />
+        </Link>
         <Link href="/work/ad-placement-strategy">
           <Card
             thumbnailUrl="/ap-Thumbnail.jpg"

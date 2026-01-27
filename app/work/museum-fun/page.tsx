@@ -94,7 +94,9 @@ export default function Page() {
           </div>
         </div>
 
-        <h1 className="pt-8 text-3xl font-bold">challenge</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          challenge
+        </h1>
         <p>
           Designing a museum mobile app means weaving a digital layer into the
           physical environment, presenting a distinct set of design challenges:
@@ -112,14 +114,18 @@ export default function Page() {
           text, that can feel overwhelming.
         </div>
 
-        <h1 className="pt-8 text-3xl font-bold">solution</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          solution
+        </h1>
         <p>
           The idea was to shift the museum experience from a passive, linear
           walkthrough to an interactive adventure using AR technology and
           gamified elements.
         </p>
 
-        <h1 className="pt-8 text-3xl font-bold">understanding the user</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          understanding the user
+        </h1>
         <p>
           To ground our ideas in real-world behavior, we observed how kids
           interact with physical exhibit spaces. We asked ourselves some key
@@ -145,7 +151,9 @@ export default function Page() {
         </p>
         <Carousel images={images2} imageClassName="w-5/6" />
 
-        <h1 className="pt-8 text-3xl font-bold">starting the design</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          starting the design
+        </h1>
         <p>
           We drew some sketches to explore ways of streamlining the process and
           providing users with clear instructions. Taking the time to draft
@@ -189,7 +197,9 @@ export default function Page() {
           it, which could cause frustration or lost progress.
         </div>
 
-        <h1 className="pt-8 text-3xl font-bold">refining the design</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          refining the design
+        </h1>
         <p>
           With usability insights in hand, we developed a flexible and adaptable
           design system - featuring a cohesive grid, color palette, typography,
@@ -223,7 +233,9 @@ export default function Page() {
         </p>
         <FigmaEmbed figmaUrl="https://www.figma.com/proto/3lgReeL93JbVcRhgVVRmAY/MuseumFun-App---Web?page-id=47%3A50&node-id=60-2550&starting-point-node-id=60%3A2550&t=vVJE0jTXwTmQGfoN-1" />
 
-        <h1 className="pt-8 text-3xl font-bold">going forward</h1>
+        <h1 className={`${montserrat.className} pt-8 text-3xl font-semibold`}>
+          going forward
+        </h1>
         <p>
           Even though we completed the initial design process, we see room for
           further improvement and iteration. Some areas we're excited to explore

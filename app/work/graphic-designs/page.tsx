@@ -15,7 +15,7 @@ export default function Page() {
       </button>
 
       <div className="flex w-full flex-col space-y-2 text-lg text-gray-600 md:space-y-4">
-        <p className="mt-8">
+        <p>
           Various designs created using Adobe Photoshop, Adobe Illustrator and
           Adobe InDesign.
         </p>
