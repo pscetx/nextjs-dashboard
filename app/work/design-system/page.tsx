@@ -88,10 +88,18 @@ export default function Page() {
         </p>
         <Image
           className="mx-auto w-full"
-          src="/ds-Examples.jpg"
+          src="/ds-Examples1.jpg"
           width={900}
           height={50}
-          alt="Examples"
+          alt="Examples #1"
+          priority
+        />
+        <Image
+          className="mx-auto w-full"
+          src="/ds-Examples2.jpg"
+          width={900}
+          height={50}
+          alt="Examples #2"
           priority
         />
 
